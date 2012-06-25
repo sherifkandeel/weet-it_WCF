@@ -40,3 +40,17 @@ C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\M
 C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\mergedServices.dll
 C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.dll.config
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\HtmlAgilityPack.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\MySql.Data.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\OpenLink.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.xml
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\obj\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\GitHub\weet-it_WCF\mergedServices\obj\Debug\mergedServices.pdb

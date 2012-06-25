@@ -160,7 +160,7 @@ namespace mergedServices
         {            
             String query = "select * where {<" + SubjectURI + "><http://dbpedia.org/ontology/abstract> ?obj}";
             SparqlResultSet results = Request.RequestWithHTTP(query);
-            if (results != null)
+            if (results.Count!=0)
             {
                 SparqlResult result = results[0];
                 return ((LiteralNode)result.Value("obj")).Value;

@@ -13,8 +13,8 @@ namespace mergedServices
         static string sameasServicelink = "http://sameas.org/text";
         static string fb_imageApi = "https://usercontent.googleapis.com/freebase/v1/image/m/";
         public enum E { small, medium, large };
-        static string largeimg = "?maxwidth=100&maxheight=100";
-        static string smallimg = "?maxwidth=500&maxheight=500";
+        static string largeimg = "?maxwidth=500&maxheight=500";
+        static string smallimg = "?maxwidth=100&maxheight=100";
 
         /// <summary>
         /// this function will check first for dbpedia image link
@@ -84,11 +84,16 @@ namespace mergedServices
 
             string temp = dondloadtext.DownloadString(sameasServicelink);
             similaruris = temp.Split(sep, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            
             foreach (string it in similaruris)
             {
                 if (it.Contains("rdf.freebase") && it.Contains("m."))
                 {
+                    
                     freebaselink = it;
+
+                    freebaselink = freebaselink.Replace("<", "");
+                    freebaselink = freebaselink.Replace(">", "");
                     entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m.") + 3);
                     switch (imgsize)
                     {

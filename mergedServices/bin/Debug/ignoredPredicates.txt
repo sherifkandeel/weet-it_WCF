@@ -1,0 +1,4 @@
+http://dbpedia.org/ontology/wikiPageWikiLink
+http://dbpedia.org/ontology/wikiPageRedirects
+http://dbpedia.org/ontology/wikiPageDisambiguates
+http://purl.org/dc/terms/subject

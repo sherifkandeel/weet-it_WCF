@@ -1,0 +1,215 @@
+<?xml version='1.0'?>
+<profile>
+	<mini>
+		<Album URI="http://dbpedia.org/ontology/Album">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/artist</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/genre</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/producer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/releaseDate</predicate>
+		</Album>
+		<Artist URI="http://dbpedia.org/ontology/Artist">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/director</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/musicalBand</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/producer</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/starring</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/editing</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/designer</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/executiveProducer</predicate>
+		</Artist>
+		<Athlete URI="http://dbpedia.org/ontology/Athlete">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/team</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/position</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/Person/height</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/Person/weight</predicate>
+		</Athlete>
+		<Book URI="http://dbpedia.org/ontology/Book">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/author</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/isbn</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+		</Book>
+		<City URI="http://dbpedia.org/ontology/City">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+		</City>
+		<Organisation URI="http://dbpedia.org/ontology/Organisation">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/industry</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/product</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/revenue</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/manufacturer</predicate>
+		</Organisation>
+		<Country URI="http://dbpedia.org/ontology/Country">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/capital</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/currency</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/officialLanguage</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+		</Country>
+		<Film URI="http://dbpedia.org/ontology/Film">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/director</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/starring</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/writer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/releaseDate</predicate>
+		</Film>
+		<Settlement URI="http://dbpedia.org/ontology/Settlement">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+		</Settlement>
+		<Song URI="http://dbpedia.org/ontology/Song">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/composer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/writer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/artist</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/album</predicate>
+		</Song>
+		<SportsTeam URI="http://dbpedia.org/ontology/SportsTeam">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/formationDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/manager</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/chairman</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/team</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/league</predicate>
+		</SportsTeam>
+		<Person URI="http://dbpedia.org/ontology/Person">
+			<predicate queryType="getObjects">http://localhost:8890/ontology/birthDate</predicate>
+			<predicate queryType="getObjects">http://localhost:8890/ontology/birthPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://localhost:8890/ontology/child</predicate>
+			<predicate queryType="getObjects">http://localhost:8890/ontology/spouse</predicate>
+			<predicate queryType="getObjects">http://localhost:8890/ontology/deathPlace</predicate>
+			<predicate queryType="getObjects">http://localhost:8890/ontology/deathDate</predicate>
+		</Person>
+	</mini>
+	<full>
+		<Album URI="http://dbpedia.org/ontology/Album">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/artist</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/genre</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/producer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/releaseDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/Work/runtime</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+		</Album>
+		<Artist URI="http://dbpedia.org/ontology/Artist">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/director</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/musicalBand</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/producer</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/starring</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/editing</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/designer</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/executiveProducer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathPlace</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+				
+		</Artist>
+		<Athlete URI="http://dbpedia.org/ontology/Athlete">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/team</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/position</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/Person/height</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/Person/weight</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathDate</predicate>
+		</Athlete>
+		<Book URI="http://dbpedia.org/ontology/Book">
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/author</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/isbn</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/publisher</predicate>
+				<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+		</Book>
+		<City URI="http://dbpedia.org/ontology/City">
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/leaderName</predicate>
+		</City>
+		<Organisation URI="http://dbpedia.org/ontology/Organisation">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/industry</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/product</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/revenue</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/manufacturer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/formationDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/foundationPerson</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/keyPerson</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/location</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/foundationPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/locationCity</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/assets</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/numberOfStaff</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/parentCompany</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/successor</predicate>
+		</Organisation>
+		<Country URI="http://dbpedia.org/ontology/Country">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/capital</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/currency</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/officialLanguage</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/largestCity</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/anthem</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/governmentType</predicate>
+		</Country>
+		<Film URI="http://dbpedia.org/ontology/Film">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/director</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/starring</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/writer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/releaseDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/budget</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/gross</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/musicComposer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/producer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/runtime</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+		</Film>
+		<Settlement URI="http://dbpedia.org/ontology/Settlement">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/leaderName</predicate>
+		</Settlement>
+		<Song URI="http://dbpedia.org/ontology/Song">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/composer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/writer</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/artist</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/album</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+		</Song>
+		<SportsTeam URI="http://dbpedia.org/ontology/SportsTeam">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/formationDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/manager</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/chairman</predicate>
+			<predicate queryType="getSubjects">http://dbpedia.org/ontology/team</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/league</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/chairman</predicate>
+			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
+		</SportsTeam>
+	</full>
+<execludedPredicates>
+	<predicate>http://dbpedia.org/ontology/activeYearsEndDate</predicate>
+</execludedPredicates>
+</profile>

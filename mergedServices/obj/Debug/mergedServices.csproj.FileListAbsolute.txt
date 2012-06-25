@@ -1,0 +1,42 @@
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\mergedServices.dll.config
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\dotNetRDF.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\HtmlAgilityPack.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\MySql.Data.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\OpenLink.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\dotNetRDF.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\obj\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\mergedServices\mergedServices\obj\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\mergedServices.dll.config
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\dotNetRDF.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\HtmlAgilityPack.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\MySql.Data.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\OpenLink.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\dotNetRDF.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\obj\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices [V1.0] [SHERIF]\mergedServices\obj\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\mergedServices.dll.config
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\mergedServices.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\dotNetRDF.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\HtmlAgilityPack.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\MySql.Data.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\OpenLink.Data.Virtuoso.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\dotNetRDF.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\mergedServices.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\Services\MergedServices + Hatem Part\MergedServices [V1.2] [SHERIF] [WORKING]\mergedServices\obj\Debug\mergedServices.pdb

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49B74F05-F73F-45E3-9D4C-5834939A6D23}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mergedServices</RootNamespace>
+    <AssemblyName>mergedServices</AssemblyName>
+    <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dotNetRDF">
+      <HintPath>libraries\Core\net35\dotNetRDF.dll</HintPath>
+    </Reference>
+    <Reference Include="dotNetRDF.Data.Virtuoso">
+      <HintPath>libraries\Data\Virtuoso\net35\dotNetRDF.Data.Virtuoso.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>libraries\Core\net35\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>libraries\Core\net35\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>libraries\Core\net35\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="NHunspell, Version=0.9.6.0, Culture=neutral, PublicKeyToken=1ac793ea843b4366, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenLink.Data.Virtuoso">
+      <HintPath>libraries\Data\Virtuoso\net35\OpenLink.Data.Virtuoso.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="answerGenerator.cs" />
+    <Compile Include="CompareWithOnePredicateClass.cs" />
+    <Compile Include="CompareWithOnePredicateInterface.cs" />
+    <Compile Include="Comparison.cs" />
+    <Compile Include="ComparisonServiceClass.cs" />
+    <Compile Include="ComparisonServiceInterface.cs" />
+    <Compile Include="entity.cs" />
+    <Compile Include="Hatem\Entity.cs" />
+    <Compile Include="Hatem\FullProfile.cs" />
+    <Compile Include="Hatem\imageGrapper.cs" />
+    <Compile Include="Hatem\MicroProfile.cs" />
+    <Compile Include="Hatem\MiniProfile.cs" />
+    <Compile Include="Hatem\Profile.cs" />
+    <Compile Include="Hatem\ProfileConstructorInterface.cs" />
+    <Compile Include="Hatem\ProfileConstructorService.cs" />
+    <Compile Include="Hatem\RelationGenerator.cs" />
+    <Compile Include="keywordSearchServiceClass.cs" />
+    <Compile Include="keywordSearchServiceInterface.cs" />
+    <Compile Include="KwSearch.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Lexicon.cs" />
+    <Compile Include="LexiconLiteral.cs" />
+    <Compile Include="LexiconPredicate.cs" />
+    <Compile Include="LexiconToken.cs" />
+    <Compile Include="ObjectsPreviewManager.cs" />
+    <Compile Include="ObjectsRelationManager.cs" />
+    <Compile Include="PartialAnswer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QAServiceClass.cs" />
+    <Compile Include="QAServiceInterface.cs" />
+    <Compile Include="QueryBucket.cs" />
+    <Compile Include="QueryHandler.cs" />
+    <Compile Include="QueryProcessor.cs" />
+    <Compile Include="questionAnswer.cs" />
+    <Compile Include="relation.cs" />
+    <Compile Include="RelationGeneratorServiceClass.cs" />
+    <Compile Include="RelationGeneratorServiceInterface.cs" />
+    <Compile Include="RelFinder.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="resourceInformation.cs" />
+    <Compile Include="ResSetToJSON.cs" />
+    <Compile Include="SPARQLQueryBuilder.cs" />
+    <Compile Include="util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{3D9AD99F-2412-4246-B90B-4EAA41C64699}">
+        <WcfProjectProperties>
+          <AutoStart>True</AutoStart>
+        </WcfProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

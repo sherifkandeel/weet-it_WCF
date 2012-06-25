@@ -1,0 +1,46 @@
+﻿//This is the question types file
+//
+//v0.1
+//
+//Please write "//" before comments.
+//
+//Format of this file is:
+//Regex to match certain question is written in one line (in small letters)
+//and the type of the question is written in the line after its regex.
+//Regex starts with '^' to indicate the beginning of the string
+//as the question keywords lies at the beginning of any sentence.
+//example:
+//		^how many	(regex)
+//		count		(question type of the question that matches the above regex)
+//
+//Current Release Notes:
+//
+//1)In regex: add space to the words combinations that come after the main question keyword
+//	example:
+//			^could [ |you|tell|me|please]*
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+^how many
+count
+
+^how much
+normal
+
+^could [ |you|tell|me|please]*
+normal
+
+^can [ |you|tell|me|please]*
+normal
+
+^would [ |you|tell|me|please]*
+normal
+
+^tell [ |me|please]*
+normal
+
+^what
+normal
+
+^who
+normal

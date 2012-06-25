@@ -70,10 +70,10 @@ namespace mergedServices
             bool typeFound = false;
             foreach (SparqlResult result in results)
                 types.Add(result.Value("obj").ToString());
-            foreach (String type in types)
+            List<XElement> XMLList = XMLDoc.Root.Elements(profileType).Elements().ToList();
+			foreach (XElement element in XMLList)
             {
-                List<XElement> XMLList = XMLDoc.Root.Elements(profileType).Elements().ToList();
-                foreach (XElement element in XMLList)
+                foreach (String type in types)
                 {
                     if (element.Attribute("URI").Value == type)
                     {

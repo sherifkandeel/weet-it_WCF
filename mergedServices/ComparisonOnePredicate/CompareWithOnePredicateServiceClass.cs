@@ -9,7 +9,7 @@ using VDS.RDF;
 namespace mergedServices
 {
     //[ServiceBehavior()]
-    partial class MergedService : CompareWithOnePredicateInterface
+    partial class MergedService : CompareWithOnePredicateServiceInterface
     {
         public List<List<String>> CompareWithRespect(List<String> subjectsNames, String predicateURI,int limit=50)
         {

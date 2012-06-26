@@ -182,9 +182,11 @@ namespace mergedServices
                             // check that the property is used .. not a non-used property 
                             bool hasResuts = false;
                             string checkQuery = "select distinct * where { ?x <" + predicateURI + "> ?y } limit 1 ";
-                            QueryHandler.startConnection();
-                            SparqlResultSet checkResults = QueryHandler.ExecuteQueryWithString(checkQuery);
-                            QueryHandler.closeConnection();
+                            //QueryHandler.startConnection();
+                            //SparqlResultSet checkResults = QueryHandler.ExecuteQueryWithString(checkQuery);
+                            //QueryHandler.closeConnection();
+
+                            SparqlResultSet checkResults = Request.RequestWithHTTP(checkQuery);
 
                             if (checkResults.Count != 0)
                             {
@@ -530,9 +532,10 @@ namespace mergedServices
                     "union { <" + x.URI + ">" + " <http://www.w3.org/2000/01/rdf-schema#range> ?range ." +
                     "}}";
 
-                QueryHandler.startConnection();
-                SparqlResultSet resulSet = QueryHandler.ExecuteQueryWithString(Query);
-                QueryHandler.closeConnection();
+                //QueryHandler.startConnection();
+                //SparqlResultSet resulSet = QueryHandler.ExecuteQueryWithString(Query);
+                //QueryHandler.closeConnection();
+                SparqlResultSet resulSet = Request.RequestWithHTTP(Query);
 
                 if (resulSet.Count() != 0)
                 {
@@ -598,9 +601,10 @@ namespace mergedServices
 
 
 
-                QueryHandler.startConnection();
-                SparqlResultSet resulSet = QueryHandler.ExecuteQueryWithString(Query);
-                QueryHandler.closeConnection();
+                //QueryHandler.startConnection();
+                //SparqlResultSet resulSet = QueryHandler.ExecuteQueryWithString(Query);
+                //QueryHandler.closeConnection();
+                SparqlResultSet resulSet = Request.RequestWithHTTP(Query);
 
                 if (resulSet.Count() != 0)
                 {

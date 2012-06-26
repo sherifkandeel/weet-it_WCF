@@ -20,25 +20,26 @@ namespace mergedServices
     /// </summary>
     public static class QueryProcessor
     {
-        public static VirtuosoManager manager;
-        private static bool isConnectionStarted = false;
+        //public static VirtuosoManager manager;
+        //private static bool isConnectionStarted = false;
         
         /// <summary>
         /// starts connection with the server
         /// </summary>
         public static void startConnection()
         {
-            //Read from the config file.
-            StreamReader sr = new StreamReader("VirtuosoConnectionParameters.txt");
+            ////Read from the config file.
+            //StreamReader sr = new StreamReader("VirtuosoConnectionParameters.txt");
             
-            //Initiating the manager(to be added to constructor?)
-            if (!isConnectionStarted)
-            {
-                //manager = new VirtuosoManager("Server=localhost;Uid=dba;pwd=dba;Connection Timeout=500");                
-                //manager = new VirtuosoManager("localhost", 1111, "DB", "dba", "dba");
-                manager = new VirtuosoManager(sr.ReadLine(), int.Parse(sr.ReadLine()), sr.ReadLine(), sr.ReadLine(), sr.ReadLine());
-                isConnectionStarted = true;
-            }
+            ////Initiating the manager(to be added to constructor?)
+            //if (!isConnectionStarted)
+            //{
+            //    //manager = new VirtuosoManager("Server=localhost;Uid=dba;pwd=dba;Connection Timeout=500");                
+            //    //manager = new VirtuosoManager("localhost", 1111, "DB", "dba", "dba");
+            //    manager = new VirtuosoManager(sr.ReadLine(), int.Parse(sr.ReadLine()), sr.ReadLine(), sr.ReadLine(), sr.ReadLine());
+            //    isConnectionStarted = true;
+            //}
+
 
         }
 
@@ -47,11 +48,11 @@ namespace mergedServices
         /// </summary>
         public static void closeConnection()
         {
-            if (isConnectionStarted)
-            {
-                //manager.Close(false);
-                //isConnectionStarted = false;
-            }
+            //if (isConnectionStarted)
+            //{
+            //    //manager.Close(false);
+            //    //isConnectionStarted = false;
+            //}
 
         }
 

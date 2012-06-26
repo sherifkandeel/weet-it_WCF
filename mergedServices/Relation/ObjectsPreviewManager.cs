@@ -36,20 +36,19 @@ namespace mergedServices
                     "select distinct * where{?s ?p <" + URI +
                     ">. filter (?p != <http://dbpedia.org/ontology/wikiPageWikiLink>)}");
                 generatedQueries.Add("select distinct * where{"+
-                    "<" + URI + "> ?p ?o. filter (?p != <http://dbpedia.org/ontology/wikiPageWikiLink>)}");              
-                                
-                  
-        
+                    "<" + URI + "> ?p ?o. filter (?p != <http://dbpedia.org/ontology/wikiPageWikiLink>)}");  
 
         }
+
         private List<List<string>> getResultsAsStrings(List<string> queries, string obj)
         {
             
-            QueryProcessor.startConnection();
+            //QueryProcessor.startConnection();
             List<SparqlResultSet> resultSet = new List<SparqlResultSet>();
             foreach (string item in queries)
             {
-                resultSet.Add(QueryProcessor.ExecuteQueryWithString(item));
+                //resultSet.Add(QueryProcessor.ExecuteQueryWithString(item));
+                resultSet.Add(Request.RequestWithHTTP(item));
             }
             
             return convertResultSetListToStrings(resultSet, obj);

@@ -21,24 +21,24 @@ namespace mergedServices
             return RelFinder.getRelationWithLabels(uri, Distance, Limit);
         }
 
-        public List<relation> getRelations(List<string> uri, int Distance, int Limit = 50)
+        public List<Relation> getRelations(List<string> uri, int Distance, int Limit = 50)
         {
             List<List<string>> results = RelFinder.getRelations(uri, Distance, Limit);
-            List<relation> relations = new List<relation>();
+            List<Relation> relations = new List<Relation>();
             foreach (List<string> s in  results)
             {
-                relations.Add(new relation(s));
+                relations.Add(new Relation(s));
             }
             return relations;
         }
 
-        public List<relation> getRelationWithLabels(List<string> uri, int Distance, int Limit = 50)
+        public List<Relation> getRelationWithLabels(List<string> uri, int Distance, int Limit = 50)
         {
             List<List<KeyValuePair<string,string>>> results =  RelFinder.getRelationWithLabels(uri, Distance, Limit);
-            List<relation> relations = new List<relation>();
+            List<Relation> relations = new List<Relation>();
             foreach (List<KeyValuePair<string,string>> s in results)
             {
-                relations.Add(new relation(s));
+                relations.Add(new Relation(s));
             }
 
             return relations;

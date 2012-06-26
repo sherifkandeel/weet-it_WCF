@@ -69,7 +69,8 @@ namespace mergedServices
             List<List<string>> URIS = new List<List<string>>();
             foreach (SPARQLQueryBuilder.InnerQuery Q in Queries)
             {
-                SparqlResultSet resultSet = QueryHandler.ExecuteQueryWithString(Q.queryText);
+                //SparqlResultSet resultSet = QueryHandler.ExecuteQueryWithString(Q.queryText);
+                SparqlResultSet resultSet = Request.RequestWithHTTP(Q.queryText);
 
                 if (Q.connectState == SPARQLQueryBuilder.connectionType.connectedDirectly || Q.connectState == SPARQLQueryBuilder.connectionType.connectedDirectlyInverted)
                 {

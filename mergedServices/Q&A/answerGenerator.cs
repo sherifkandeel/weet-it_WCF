@@ -53,7 +53,8 @@ namespace mergedServices
                 {
                     foreach (string queryString in queryBucket.BucketQueryList)
                     {
-                        SparqlResultSet resultSet = QueryHandler.ExecuteQueryWithString(queryString);
+                        //SparqlResultSet resultSet = QueryHandler.ExecuteQueryWithString(queryString);
+                        SparqlResultSet resultSet = Request.RequestWithHTTP(queryString);
                         if (resultSet.Count > 0)
                         {
                             questionAnswer answer = new questionAnswer(queryBucket.QuestionType);

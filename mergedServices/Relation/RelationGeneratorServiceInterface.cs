@@ -18,10 +18,10 @@ namespace mergedServices
         List<List<KeyValuePair<string, string>>> simpleGetRelationWithLabels(List<string> uri, int Distance, int Limit = 50);
 
         [OperationContract]
-        List<relation> getRelations(List<string> uri, int Distance, int Limit = 50);
+        List<Relation> getRelations(List<string> uri, int Distance, int Limit = 50);
 
         [OperationContract]
-        List<relation> getRelationWithLabels(List<string> uri, int Distance, int Limit = 50);
+        List<Relation> getRelationWithLabels(List<string> uri, int Distance, int Limit = 50);
 
     
     

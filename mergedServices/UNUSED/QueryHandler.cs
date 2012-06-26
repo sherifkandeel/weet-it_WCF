@@ -109,11 +109,12 @@ namespace mergedServices
         {
             if (node.Contains("http://"))
             {
-                QueryHandler.startConnection();
+                //QueryHandler.startConnection();
+                //SparqlResultSet results = QueryHandler.ExecuteQueryWithString("select ?x where {<" + node + "> <http://www.w3.org/2000/01/rdf-schema#label> ?x}");// FILTER (langMatches(lang(?x), \"EN\"))}");
+                //QueryHandler.closeConnection();
 
-                SparqlResultSet results = QueryHandler.ExecuteQueryWithString("select ?x where {<" + node + "> <http://www.w3.org/2000/01/rdf-schema#label> ?x}");// FILTER (langMatches(lang(?x), \"EN\"))}");
 
-                QueryHandler.closeConnection();
+                SparqlResultSet results = Request.RequestWithHTTP("select ?x where {<" + node + "> <http://www.w3.org/2000/01/rdf-schema#label> ?x}");
 
                 if (results.Count != 0)
                     return results[0].Value("x").ToString();

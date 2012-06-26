@@ -7,7 +7,7 @@ using System.ServiceModel;
 namespace mergedServices
 {
     [ServiceContract]
-    public interface CompareWithOnePredicateInterface
+    public interface CompareWithOnePredicateServiceInterface
     {
         [OperationContract]
         List<List<String>> CompareWithRespect(List<String> subjectsNames, String predicateURI, int limit);

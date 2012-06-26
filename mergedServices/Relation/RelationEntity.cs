@@ -7,20 +7,20 @@ using System.Runtime.Serialization;
 namespace mergedServices
 {
     [DataContract]
-    public class entity
+    public class RelationEntity
     {
         [DataMember]
         public string uri;
         [DataMember]
         public string label;
         [DataMember]
-        public entity next;
+        public RelationEntity next;
 
-        public entity()
+        public RelationEntity()
         {
-            next = new entity();
+            next = new RelationEntity();
         }
-        public entity(string uri, string label, entity next)
+        public RelationEntity(string uri, string label, RelationEntity next)
         {
             this.uri = uri;
             this.label = label;

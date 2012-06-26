@@ -7,28 +7,28 @@ using System.Runtime.Serialization;
 namespace mergedServices
 {
     [DataContract]
-    public class relation
+    public class Relation
     {
         [DataMember]
-        public entity source;
+        public RelationEntity source;
         [DataMember]
-        public entity destination;
+        public RelationEntity destination;
         [DataMember]
-        public List<entity> entities;
+        public List<RelationEntity> entities;
 
-        public relation()
+        public Relation()
         {
-            this.source = new entity();
-            this.destination = new entity();
-            this.entities = new List<entity>();
+            this.source = new RelationEntity();
+            this.destination = new RelationEntity();
+            this.entities = new List<RelationEntity>();
         }
 
-        public relation(List<KeyValuePair<string,string>> relationsWithLabels)
+        public Relation(List<KeyValuePair<string,string>> relationsWithLabels)
         {
-            entities = new List<entity>();
+            entities = new List<RelationEntity>();
             foreach (KeyValuePair<string,string> s in relationsWithLabels)
             {
-                entities.Add(new entity( s.Key , s.Value, null));
+                entities.Add(new RelationEntity( s.Key , s.Value, null));
             }
             for (int i = 0; i < relationsWithLabels.Count ; i++)
             {
@@ -39,13 +39,13 @@ namespace mergedServices
             destination = entities[entities.Count - 1];
         }
 
-        public relation(List<string> relations)
+        public Relation(List<string> relations)
         {
-            entities = new List<entity>();
+            entities = new List<RelationEntity>();
 
             foreach (string s in relations)
             {
-                entities.Add(new entity(s,null,null));
+                entities.Add(new RelationEntity(s,null,null));
             }
             for (int i = 0; i < relations.Count; i++)
             {

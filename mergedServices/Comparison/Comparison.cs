@@ -6,6 +6,7 @@ using VDS.RDF;
 using VDS.RDF.Query;
 using System.Web;
 using System.Runtime.Serialization;
+using System.IO;
 
 ///usage:
 ///initialize an instance of the Comparison object giving it a list<string> uris you want to compare between
@@ -25,12 +26,29 @@ namespace mergedServices
                 
         public Comparison(List<string> uris, List<string> PredicatesToExclude = null)
         {
+            //reads from file if the consumer didn't enter any predicates
+            if (PredicatesToExclude == null)
+            {
+                PredicatesToExclude = loadPredicatesToExclude();
+            }            
+            
             //Initializing the server
             //Uri serverUri = new Uri("http://localhost:8890/sparql");            
             //endpoint = new SparqlRemoteEndpoint(serverUri);
             //endpoint.Timeout = 999999;
             ComparisonOutput = new List<ResourceInformation>();
-            getData(uris);
+            getData(uris, PredicatesToExclude);
+        }
+
+        private List<string> loadPredicatesToExclude()
+        {
+            List<string> toReturn = new List<string>();
+            StreamReader sr = new StreamReader("PredicatesToExclude.txt");
+            while (!sr.EndOfStream)
+            {
+                toReturn.Add(sr.ReadLine()); 
+            }
+            return toReturn;
         }
 
 
@@ -264,15 +282,28 @@ namespace mergedServices
 
         
 
-        public void getData(List<string> Input_URIs)
+        public void getData(List<string> Input_URIs, List<string> PredicatesToExclude)
         {
+            
+
+            //Generating filter string to add to the queries
+            string excluded = "";
+            if (PredicatesToExclude.Count > 0)
+            {
+                for (int i = 0; i < PredicatesToExclude.Count; i++)
+                {
+                    excluded += ". filter (?pred != <" + PredicatesToExclude[i] + ">)";
+                }
+            }
+
+
             //should be returned
             List<ResourceInformation> ResourceInformationList = new List<ResourceInformation>();
             foreach (string item in Input_URIs)
             {
                 //constructing the queries, we had to do FROM<dbpedia.org> to prevent garbage data, should be faster too
-                string querySide1 = "SELECT * FROM <http://dbpedia.org> WHERE {<" + item + "> ?pred ?obj}";
-                string querySide2 = "SELECT * FROM <http://dbpedia.org> WHERE {?subj ?pred <" + item + ">}";
+                string querySide1 = "SELECT *  WHERE {<" + item + "> ?pred ?obj" + excluded + "}";
+                string querySide2 = "SELECT *  WHERE {?subj ?pred <" + item + ">" + excluded + "}";
                                
                 
                 //doing both queries              

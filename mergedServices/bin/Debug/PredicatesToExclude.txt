@@ -1,0 +1,6 @@
+http://dbpedia.org/ontology/wikiPageWikiLink
+http://dbpedia.org/ontology/wikiPageRedirects
+http://dbpedia.org/ontology/wikiPageDisambiguates
+http://dbpedia.org/ontology/related/geo
+http://purl.org/dc/terms/subject
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type

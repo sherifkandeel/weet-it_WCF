@@ -559,3 +559,70 @@ New Bucket----------------------------	4:24:35 PM
 select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	4:24:35 PM
 New Bucket----------------------------	4:24:35 PM
 select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	4:24:35 PM
+ finished getting 29 predicates  Time taken : 3937.2252 msec	9:12:35 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:12:37 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:12:37 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:12:37 PM
+total time taken :6460.3695 mSecs	9:12:37 PM
+total time taken :428.0245 msecs 	9:12:38 PM
+search for combination possibilities among predicates	9:12:38 PM
+loop over 21	9:12:38 PM
+ search for combinations using literals among 21 Querybuckets 	9:12:38 PM
+-----------------------	9:12:38 PM
+QUESTION LEFT: 	9:12:38 PM
+ finished getting 29 predicates  Time taken : 2432.1391 msec	9:18:08 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:18:09 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:18:09 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:18:10 PM
+total time taken :4322.2472 mSecs	9:18:10 PM
+total time taken :294.0169 msecs 	9:18:10 PM
+search for combination possibilities among predicates	9:18:10 PM
+loop over 21	9:18:10 PM
+ search for combinations using literals among 21 Querybuckets 	9:18:10 PM
+-----------------------	9:18:10 PM
+QUESTION LEFT: 	9:18:10 PM
+ finished getting 11 predicates  Time taken : 47654.7257 msec	9:21:18 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:22:42 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:22:42 PM
+ finished getting 11 predicates  Time taken : 2806.1605 msec	9:23:57 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:23:58 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:23:58 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:23:59 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:24:00 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:24:00 PM
+A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:24:00 PM
+total time taken :5199.2974 mSecs	9:24:00 PM
+total time taken :5516.3155 msecs 	9:24:05 PM
+search for combination possibilities among predicates	9:24:05 PM
+loop over 12	9:24:05 PM
+ search for combinations using literals among 12 Querybuckets 	9:24:05 PM
+-----------------------	9:24:05 PM
+QUESTION LEFT: 	9:24:05 PM
+-----------------------	9:24:05 PM
+QUESTION LEFT: 	9:24:05 PM
+New Bucket----------------------------	9:24:05 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	9:24:05 PM
+New Bucket----------------------------	9:24:05 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	9:24:05 PM
+ finished getting 29 predicates  Time taken : 3795.217 msec	9:29:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:30:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:30:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:30:00 PM
+total time taken :5903.3376 mSecs	9:30:00 PM
+total time taken :472.027 msecs 	9:30:00 PM
+search for combination possibilities among predicates	9:30:00 PM
+loop over 21	9:30:00 PM
+ search for combinations using literals among 21 Querybuckets 	9:30:00 PM
+-----------------------	9:30:00 PM
+QUESTION LEFT: 	9:30:00 PM
+ finished getting 30 predicates  Time taken : 8044.4601 msec	9:57:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:57:33 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:57:33 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	9:57:33 PM
+total time taken :10077.5764 mSecs	9:57:33 PM
+total time taken :760.0435 msecs 	9:57:34 PM
+search for combination possibilities among predicates	9:57:34 PM
+loop over 21	9:57:34 PM
+ search for combinations using literals among 21 Querybuckets 	9:57:34 PM
+-----------------------	9:57:34 PM
+QUESTION LEFT: 	9:57:34 PM

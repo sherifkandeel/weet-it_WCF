@@ -87,15 +87,18 @@ namespace mergedServices
                                     if (resultType.Name == "LiteralNode")
                                     {
                                         answer.questiontype = util.questionTypes.literalAnswer;
+                                        answer.objectNodetList.Add(objectNode);
+                                        answer.objectUriList.Add(objectNode.ToString());
+                                        answer.objectLabelList.Add(objectNode.ToString());
                                     }
                                     else if (resultType.Name == "UriNode")
                                     {
                                         answer.questiontype = util.questionTypes.URIAsnwer;
+                                        answer.objectNodetList.Add(objectNode);
+                                        answer.objectUriList.Add(objectNode.ToString());
+                                        answer.objectLabelList.Add(util.getLabel(objectNode.ToString()));
                                     }
                                 }
-                                answer.objectNodetList.Add(objectNode);
-                                answer.objectUriList.Add(objectNode.ToString());
-                                answer.objectLabelList.Add(util.getLabel(objectNode.ToString()));
                             }
                             answers.Add(answer);
                         }

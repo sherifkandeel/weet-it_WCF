@@ -626,3 +626,228 @@ loop over 21	9:57:34 PM
  search for combinations using literals among 21 Querybuckets 	9:57:34 PM
 -----------------------	9:57:34 PM
 QUESTION LEFT: 	9:57:34 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"batman"and"begins"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:50:37 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"batman"and"begins"and"2"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:50:50 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"batman"and"begins"and"2"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:50:57 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:09 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:12 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:12 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:13 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:13 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"the"and"dark"and"knight"'.}limit 100The URI prefix is not recognized.==>System.Collections.ListDictionaryInternal	12:51:49 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"batman"and"begins"and""'.}limit 100A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:01:00 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"world"and"cup"and"2010"and""'.}limit 100A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:04:08 PM
+ finished getting 2 predicates  Time taken : 21511.3331 msec	1:06:21 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:06:21 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:06:22 PM
+total time taken :22037.8237 mSecs	1:06:22 PM
+total time taken :4018.6648 msecs 	1:06:26 PM
+search for combination possibilities among predicates	1:06:26 PM
+loop over 3	1:06:26 PM
+ search for combinations using literals among 3 Querybuckets 	1:06:26 PM
+ finished getting 0 predicates  Time taken : 15769.227 msec	1:06:50 PM
+total time taken :15770.2405 mSecs	1:06:50 PM
+total time taken :195.1993 msecs 	1:06:50 PM
+search for combination possibilities among predicates	1:06:50 PM
+loop over 1	1:06:50 PM
+ search for combinations using literals among 1 Querybuckets 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+-----------------------	1:06:50 PM
+QUESTION LEFT: 	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+New Bucket----------------------------	1:06:50 PM
+ finished getting 13 predicates  Time taken : 14569.158 msec	1:07:34 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:35 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:35 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:35 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:36 PM
+total time taken :16098.5362 mSecs	1:07:36 PM
+total time taken :2259.0687 msecs 	1:07:38 PM
+search for combination possibilities among predicates	1:07:38 PM
+loop over 14	1:07:38 PM
+ search for combinations using literals among 14 Querybuckets 	1:07:38 PM
+-----------------------	1:07:38 PM
+QUESTION LEFT: 	1:07:38 PM
+-----------------------	1:07:38 PM
+QUESTION LEFT: 	1:07:38 PM
+New Bucket----------------------------	1:07:38 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/length> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Blue_Nile_%28state%29>) }	1:07:38 PM
+New Bucket----------------------------	1:07:38 PM
+select distinct * WHERE { ?_Feature <http://dbpedia.org/ontology/length> ?Range . ?_Feature <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> filter(?_Feature = <http://dbpedia.org/resource/Upper_Nile_%28state%29>) }	1:07:38 PM
+ finished getting 11 predicates  Time taken : 3260.9378 msec	1:07:50 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:07:51 PM
+total time taken :3996.6124 mSecs	1:07:51 PM
+total time taken :235.2141 msecs 	1:07:51 PM
+search for combination possibilities among predicates	1:07:51 PM
+loop over 12	1:07:51 PM
+ search for combinations using literals among 12 Querybuckets 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+-----------------------	1:07:51 PM
+QUESTION LEFT: 	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/length> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Nile>) }	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/length> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Blue_Nile_%28state%29>) }	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/length> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/River_Nile_%28state%29>) }	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?_Feature <http://dbpedia.org/ontology/length> ?Range . ?_Feature <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> filter(?_Feature = <http://dbpedia.org/resource/Nile_Delta>) }	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?_Feature <http://dbpedia.org/ontology/length> ?Range . ?_Feature <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> filter(?_Feature = <http://dbpedia.org/resource/Upper_Nile_%28state%29>) }	1:07:51 PM
+New Bucket----------------------------	1:07:51 PM
+select distinct * WHERE { ?_Feature <http://dbpedia.org/ontology/length> ?Range . ?_Feature <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> filter(?_Feature = <http://dbpedia.org/resource/White_Nile_%28state%29>) }	1:07:51 PM
+ finished getting 3 predicates  Time taken : 13322.0064 msec	1:08:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:08:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:08:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:08:13 PM
+total time taken :13766.423 mSecs	1:08:13 PM
+total time taken :1546.4009 msecs 	1:08:14 PM
+search for combination possibilities among predicates	1:08:14 PM
+loop over 4	1:08:14 PM
+ search for combinations using literals among 4 Querybuckets 	1:08:14 PM
+ finished getting 3 predicates  Time taken : 13042.7068 msec	1:11:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:11:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:11:12 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:11:12 PM
+total time taken :13506.1402 mSecs	1:11:12 PM
+total time taken :4108.6857 msecs 	1:11:16 PM
+search for combination possibilities among predicates	1:11:16 PM
+loop over 4	1:11:16 PM
+ search for combinations using literals among 4 Querybuckets 	1:11:16 PM
+-----------------------	1:11:17 PM
+QUESTION LEFT: 	1:11:17 PM
+New Bucket----------------------------	1:11:17 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	1:11:17 PM
+ finished getting 3 predicates  Time taken : 4585.1304 msec	1:12:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:12:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:12:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:12:00 PM
+total time taken :4763.2909 mSecs	1:12:00 PM
+total time taken :353.3495 msecs 	1:12:01 PM
+search for combination possibilities among predicates	1:12:01 PM
+loop over 4	1:12:01 PM
+ search for combinations using literals among 4 Querybuckets 	1:12:01 PM
+ finished getting 1 predicates  Time taken : 80857.8154 msec	1:13:34 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:13:35 PM
+total time taken :81046.9722 mSecs	1:13:35 PM
+total time taken :5708.1498 msecs 	1:13:40 PM
+search for combination possibilities among predicates	1:13:40 PM
+loop over 2	1:13:40 PM
+ search for combinations using literals among 2 Querybuckets 	1:13:40 PM
+ finished getting 1 predicates  Time taken : 13770.3986 msec	1:13:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:13:56 PM
+total time taken :13912.5302 mSecs	1:13:56 PM
+total time taken :438.3972 msecs 	1:13:56 PM
+search for combination possibilities among predicates	1:13:56 PM
+loop over 2	1:13:56 PM
+ search for combinations using literals among 2 Querybuckets 	1:13:56 PM
+ finished getting 2 predicates  Time taken : 14220.7971 msec	1:14:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:14:28 PM
+total time taken :17259.5664 mSecs	1:14:28 PM
+total time taken :904.8151 msecs 	1:14:29 PM
+search for combination possibilities among predicates	1:14:29 PM
+loop over 3	1:14:29 PM
+ search for combinations using literals among 3 Querybuckets 	1:14:29 PM
+-----------------------	1:14:29 PM
+QUESTION LEFT: 	1:14:29 PM
+New Bucket----------------------------	1:14:29 PM
+select distinct * WHERE { ?Work <http://dbpedia.org/ontology/director> ?Range . ?Work <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> filter(?Work = <http://dbpedia.org/resource/The_Dark_Knight_%28film%29>) }	1:14:29 PM
+ finished getting 3 predicates  Time taken : 2846.5795 msec	1:15:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:15:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:15:00 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:15:00 PM
+total time taken :3106.7886 mSecs	1:15:00 PM
+total time taken :39.0315 msecs 	1:15:00 PM
+search for combination possibilities among predicates	1:15:00 PM
+loop over 4	1:15:00 PM
+ search for combinations using literals among 4 Querybuckets 	1:15:00 PM
+ finished getting 0 predicates  Time taken : 3326.9466 msec	1:15:13 PM
+total time taken :3326.9466 mSecs	1:15:13 PM
+total time taken :267.2412 msecs 	1:15:13 PM
+search for combination possibilities among predicates	1:15:13 PM
+loop over 1	1:15:13 PM
+ search for combinations using literals among 1 Querybuckets 	1:15:13 PM
+ finished getting 0 predicates  Time taken : 4545.0417 msec	1:15:40 PM
+total time taken :4546.0431 mSecs	1:15:40 PM
+total time taken :924.8332 msecs 	1:15:41 PM
+search for combination possibilities among predicates	1:15:41 PM
+loop over 1	1:15:41 PM
+ search for combinations using literals among 1 Querybuckets 	1:15:41 PM
+ finished getting 0 predicates  Time taken : 2288.0151 msec	1:16:12 PM
+total time taken :2288.0151 mSecs	1:16:12 PM
+total time taken :62.0577 msecs 	1:16:12 PM
+search for combination possibilities among predicates	1:16:12 PM
+loop over 1	1:16:12 PM
+ search for combinations using literals among 1 Querybuckets 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+-----------------------	1:16:12 PM
+QUESTION LEFT: 	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM
+New Bucket----------------------------	1:16:12 PM

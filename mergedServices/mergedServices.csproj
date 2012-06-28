@@ -66,6 +66,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Profiles\LiteralProfile.cs" />
     <Compile Include="Q&amp;A\answerGenerator.cs" />
     <Compile Include="ComparisonOnePredicate\CompareWithOnePredicateServiceClass.cs" />
     <Compile Include="ComparisonOnePredicate\CompareWithOnePredicateServiceInterface.cs" />

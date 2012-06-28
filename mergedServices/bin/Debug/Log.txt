@@ -851,3 +851,623 @@ New Bucket----------------------------	1:16:12 PM
 New Bucket----------------------------	1:16:12 PM
 New Bucket----------------------------	1:16:12 PM
 New Bucket----------------------------	1:16:12 PM
+ finished getting 33 predicates  Time taken : 9344.4231 msec	6:06:29 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:30 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:06:31 PM
+total time taken :10734.6763 mSecs	6:06:31 PM
+total time taken :482.4565 msecs 	6:06:31 PM
+search for combination possibilities among predicates	6:06:31 PM
+loop over 21	6:06:31 PM
+ search for combinations using literals among 21 Querybuckets 	6:06:31 PM
+-----------------------	6:06:31 PM
+QUESTION LEFT: 	6:06:31 PM
+-----------------------	6:06:31 PM
+QUESTION LEFT: 	6:06:31 PM
+ finished getting 26 predicates  Time taken : 220453.7424 msec	6:12:04 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:55 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:58 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:59 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:59 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:59 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:59 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:12:59 PM
+total time taken :274802.6968 mSecs	6:12:59 PM
+total time taken :6964.2447 msecs 	6:13:06 PM
+search for combination possibilities among predicates	6:13:06 PM
+loop over 21	6:13:06 PM
+ search for combinations using literals among 21 Querybuckets 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+-----------------------	6:13:06 PM
+QUESTION LEFT: 	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+New Bucket----------------------------	6:13:06 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:13:06 PM
+ finished getting 26 predicates  Time taken : 8144.3101 msec	6:19:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:27 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:27 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:27 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:19:27 PM
+total time taken :9446.4852 mSecs	6:19:27 PM
+total time taken :107.0938 msecs 	6:19:27 PM
+search for combination possibilities among predicates	6:19:27 PM
+loop over 21	6:19:27 PM
+ search for combinations using literals among 21 Querybuckets 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+-----------------------	6:19:27 PM
+QUESTION LEFT: 	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+New Bucket----------------------------	6:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:19:27 PM
+ finished getting 2 predicates  Time taken : 88237.5123 msec	6:36:34 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:37:25 PM
+total time taken :138876.1572 mSecs	6:37:25 PM
+total time taken :7186.4758 msecs 	6:37:32 PM
+search for combination possibilities among predicates	6:37:32 PM
+loop over 3	6:37:32 PM
+ search for combinations using literals among 3 Querybuckets 	6:37:32 PM
+-----------------------	6:37:32 PM
+QUESTION LEFT: 	6:37:32 PM
+New Bucket----------------------------	6:37:32 PM
+select distinct * WHERE { ?Work <http://dbpedia.org/ontology/director> ?Range . ?Work <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> filter(?Work = <http://dbpedia.org/resource/The_Dark_Knight_%28film%29>) }	6:37:32 PM
+ finished getting 31 predicates  Time taken : 21829.665 msec	6:39:19 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:19 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:26 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:39:26 PM
+total time taken :28230.4022 mSecs	6:39:26 PM
+total time taken :6824.1515 msecs 	6:39:33 PM
+search for combination possibilities among predicates	6:39:33 PM
+loop over 21	6:39:33 PM
+ search for combinations using literals among 21 Querybuckets 	6:39:33 PM
+-----------------------	6:39:33 PM
+QUESTION LEFT: 	6:39:33 PM
+New Bucket----------------------------	6:39:33 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/birthDate> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	6:39:33 PM
+ finished getting 26 predicates  Time taken : 7458.723 msec	6:45:48 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:49 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:50 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	6:45:50 PM
+total time taken :8649.7966 mSecs	6:45:50 PM
+total time taken :93.0839 msecs 	6:45:50 PM
+search for combination possibilities among predicates	6:45:50 PM
+loop over 21	6:45:50 PM
+ search for combinations using literals among 21 Querybuckets 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+-----------------------	6:45:50 PM
+QUESTION LEFT: 	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+New Bucket----------------------------	6:45:50 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	6:45:50 PM
+ finished getting 0 predicates  Time taken : 3083.7637 msec	7:06:26 PM
+total time taken :3083.7637 mSecs	7:06:26 PM
+total time taken :7.0503 msecs 	7:06:26 PM
+search for combination possibilities among predicates	7:06:26 PM
+loop over 1	7:06:26 PM
+ search for combinations using literals among 1 Querybuckets 	7:06:26 PM
+ finished getting 26 predicates  Time taken : 8126.3247 msec	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:03:45 AM
+total time taken :9261.3478 mSecs	1:03:45 AM
+total time taken :121.1092 msecs 	1:03:45 AM
+search for combination possibilities among predicates	1:03:45 AM
+loop over 21	1:03:45 AM
+ search for combinations using literals among 21 Querybuckets 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+-----------------------	1:03:45 AM
+QUESTION LEFT: 	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+New Bucket----------------------------	1:03:45 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:03:45 AM
+select ?predrange  ?predlabel where {<http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <http://www.w3.org/2000/01/rdf-schema#range> ?predrange .  <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <www.w3.org/2000/01/rdf-schema#label> ?predlabel .}. A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:13:32 AM
+ finished getting 26 predicates  Time taken : 7670.9147 msec	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:43 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:17:44 AM
+total time taken :8847.9757 mSecs	1:17:44 AM
+total time taken :99.107 msecs 	1:17:44 AM
+search for combination possibilities among predicates	1:17:44 AM
+loop over 21	1:17:44 AM
+ search for combinations using literals among 21 Querybuckets 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+-----------------------	1:17:44 AM
+QUESTION LEFT: 	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+New Bucket----------------------------	1:17:44 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:17:44 AM
+select ?predrange  ?predlabel where {<http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <http://www.w3.org/2000/01/rdf-schema#range> ?predrange .  <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <www.w3.org/2000/01/rdf-schema#label> ?predlabel .}. A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:19:26 AM
+ finished getting 26 predicates  Time taken : 7578.7968 msec	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:19 AM
+total time taken :8710.8167 mSecs	1:22:19 AM
+total time taken :74.0681 msecs 	1:22:19 AM
+search for combination possibilities among predicates	1:22:19 AM
+loop over 21	1:22:19 AM
+ search for combinations using literals among 21 Querybuckets 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+-----------------------	1:22:19 AM
+QUESTION LEFT: 	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+New Bucket----------------------------	1:22:19 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:22:19 AM
+select ?predrange  ?predlabel where {<"http://dbpedia.org/ontology/PopulatedPlace/areaMetro"> <http://www.w3.org/2000/01/rdf-schema#range> ?predrange .  <"http://dbpedia.org/ontology/PopulatedPlace/areaMetro"> <www.w3.org/2000/01/rdf-schema#label> ?predlabel .}. A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:22:49 AM
+ finished getting 26 predicates  Time taken : 7679.9224 msec	1:26:17 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:17 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:26:18 AM
+total time taken :8801.9337 mSecs	1:26:18 AM
+total time taken :98.1025 msecs 	1:26:18 AM
+search for combination possibilities among predicates	1:26:18 AM
+loop over 21	1:26:18 AM
+ search for combinations using literals among 21 Querybuckets 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+-----------------------	1:26:18 AM
+QUESTION LEFT: 	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+New Bucket----------------------------	1:26:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:18 AM
+select ?predrange  ?predlabel where {<http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <http://www.w3.org/2000/01/rdf-schema#range> ?predrange .  <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> <www.w3.org/2000/01/rdf-schema#label> ?predlabel .}. A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:28:01 AM
+ finished getting 11 predicates  Time taken : 14118.7201 msec	1:28:54 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:09 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:09 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:10 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:10 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:10 AM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:29:10 AM
+total time taken :30434.3978 mSecs	1:29:10 AM
+total time taken :2607.3501 msecs 	1:29:13 AM
+search for combination possibilities among predicates	1:29:13 AM
+loop over 12	1:29:13 AM
+ search for combinations using literals among 12 Querybuckets 	1:29:13 AM
+-----------------------	1:29:13 AM
+QUESTION LEFT: 	1:29:13 AM
+-----------------------	1:29:13 AM
+QUESTION LEFT: 	1:29:13 AM
+New Bucket----------------------------	1:29:13 AM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	1:29:13 AM
+New Bucket----------------------------	1:29:13 AM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	1:29:13 AM
+ finished getting 1 predicates  Time taken : 93232.0635 msec	1:43:06 AM
+total time taken :93421.253 mSecs	1:43:06 AM
+total time taken :3056.7553 msecs 	1:43:09 AM
+search for combination possibilities among predicates	1:43:09 AM
+loop over 2	1:43:09 AM
+ search for combinations using literals among 2 Querybuckets 	1:43:09 AM
+-----------------------	1:43:09 AM
+QUESTION LEFT: 	1:43:09 AM
+New Bucket----------------------------	1:43:09 AM
+select distinct * WHERE { ?Work <http://dbpedia.org/ontology/budget> ?Range . ?Work <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> filter(?Work = <http://dbpedia.org/resource/The_Dark_Knight_%28film%29>) }	1:43:09 AM
+ finished getting 1 predicates  Time taken : 29596.6609 msec	1:43:39 AM
+total time taken :29691.747 mSecs	1:43:39 AM
+total time taken :393.3537 msecs 	1:43:39 AM
+search for combination possibilities among predicates	1:43:39 AM
+loop over 2	1:43:39 AM
+ search for combinations using literals among 2 Querybuckets 	1:43:39 AM
+-----------------------	1:43:39 AM
+QUESTION LEFT: 	1:43:39 AM
+New Bucket----------------------------	1:43:39 AM
+select distinct * WHERE { ?Work <http://dbpedia.org/ontology/budget> ?Range . ?Work <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> filter(?Work = <http://dbpedia.org/resource/The_Dark_Knight_%28film%29>) }	1:43:39 AM
+ finished getting 1 predicates  Time taken : 31376.3012 msec	1:46:27 AM
+total time taken :31472.3547 mSecs	1:46:27 AM
+total time taken :370.3329 msecs 	1:46:27 AM
+search for combination possibilities among predicates	1:46:27 AM
+loop over 2	1:46:27 AM
+ search for combinations using literals among 2 Querybuckets 	1:46:27 AM
+-----------------------	1:46:27 AM
+QUESTION LEFT: 	1:46:27 AM
+New Bucket----------------------------	1:46:27 AM
+select distinct * WHERE { ?Work <http://dbpedia.org/ontology/budget> ?Range . ?Work <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> filter(?Work = <http://dbpedia.org/resource/The_Dark_Knight_%28film%29>) }	1:46:27 AM
+select ?predrange  ?predlabel where {<http://dbpedia.org/ontology/budget> <http://www.w3.org/2000/01/rdf-schema#range> ?predrange .  <http://dbpedia.org/ontology/budget> <www.w3.org/2000/01/rdf-schema#label> ?predlabel .}. A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	1:50:59 AM

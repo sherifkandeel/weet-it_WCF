@@ -14,6 +14,13 @@ namespace mergedServices
     public partial class MergedService : ProfileConstructorInterface
     {
         public enum choiceProfile { micro, mini, full };
+        public LiteralProfile ConstructLiteralProfile( string subjectURI, string predicate_label, string subject_label,string object_URI,string object_value,string pred_URI)
+        {
+            LiteralProfile LP = new LiteralProfile(subject_label, predicate_label, object_value, pred_URI);
+            
+             return LP;
+
+        }
 
         public Profile ConstructProfile(String subjectURI, choiceProfile profile, int resultLimit = 10)
         {

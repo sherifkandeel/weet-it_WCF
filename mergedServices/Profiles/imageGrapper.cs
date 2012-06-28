@@ -7,6 +7,9 @@ using VDS.RDF.Query;
 
 namespace mergedServices
 {
+    /// <summary>
+    /// the glass grabs an image for the given entity URI
+    /// </summary>
     public static class imageGrapper
     {
         //we should consider replacing the api call with querying from the local server
@@ -19,7 +22,7 @@ namespace mergedServices
         /// <summary>
         /// this function will check first for dbpedia image link
         /// </summary>
-        /// <param name="dbpediaUri">e.g http://dbpedia.org/resource/Egypt</param>
+        /// <param name="dbpediaUri">e.g http://dbpedia.org/resource/Egypt </param>
         /// <param name="imgsize">max sizeof the image required</param>
         /// <returns></returns>
         public static List<string> retrieve_img(string dbpediaUri, E imgsize = E.small)
@@ -70,20 +73,29 @@ namespace mergedServices
         /// <summary>
         /// this one will get freebaseimage directly without checking dbpedia link
         /// </summary>
-        /// <param name="dbpedialink">e.g http://dbpedia.org/resource/Syria</param>
+        /// <param name="dbpedialink">e.g http://dbpedia.org/resource/Syria </param>
         /// <param name="imgsize"></param>
         /// <returns></returns>
         public static string get_fb_link(string dbpedialink, E imgsize)
         {
+            string temp;
             string freebaselink;
             string entity_freebase_id;
-            List<string> similaruris;
+            List<string> similaruris = new List<string>() ;
             string[] sep = new string[] { "\n" };
             WebClient dondloadtext = new WebClient();
             dondloadtext.QueryString.Add("uri", dbpedialink);
+            try
+            {
+                 temp = dondloadtext.DownloadString(sameasServicelink);
+                 similaruris = temp.Split(sep, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            }
+            catch( HttpListenerException noService)
+            {
 
-            string temp = dondloadtext.DownloadString(sameasServicelink);
-            similaruris = temp.Split(sep, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+                return null;
+            }
+            
             
             foreach (string it in similaruris)
             {

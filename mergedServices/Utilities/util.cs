@@ -178,7 +178,7 @@ namespace mergedServices
         public static string getLabel(string URI)
         {
             //if the string is empty return it as it is
-            if (URI.Length < 0)
+            if (URI.Length == 0)
                 return URI;
 
             //at least best one for now

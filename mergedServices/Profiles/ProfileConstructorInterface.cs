@@ -11,8 +11,9 @@ namespace mergedServices
     {
         [OperationContract]
         Profile ConstructProfile(String subjectURI, MergedService.choiceProfile profile, int resultLimit = 10);
+
         [OperationContract]
-        LiteralProfile ConstructLiteralProfile(string subjectURI, string predicate_label, string subject_label, string object_URI, string object_value, string pred_URI);
+        Profile ConstructLiteralProfile(string subjectURI, string predicate_label, string subject_label, string object_URI, string object_value, string pred_URI);
         
     }
 }

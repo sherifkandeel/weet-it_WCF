@@ -175,8 +175,9 @@ namespace mergedServices
             return false;
         }
 
-		public static string getLabel(String URI)
+        public static string getLabel(string URI)
         {
+
             //at least best one for now
             URI = Uri.EscapeUriString(URI);
             //SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
@@ -188,13 +189,13 @@ namespace mergedServices
             {
                 string name_query = "select * where {<" + URI + "> <http://xmlns.com/foaf/0.1/name> ?obj}";
                 //results = endpoint.QueryWithResultSet(name_query);
-                results= Request.RequestWithHTTP(name_query);
+                results = Request.RequestWithHTTP(name_query);
 
                 //if there's no result from the second query
                 //get the name after the /
                 if (results.Count < 1)
                 {
-                    string toreturn = new string(URI.ToCharArray().Reverse().ToArray());//URI.Reverse().ToString();
+                    string toreturn = new string(URI.ToCharArray().Reverse().ToArray());//URI.Reverse().ToString();                    
                     toreturn = toreturn.Remove(toreturn.IndexOf("/"));
                     toreturn = new string(toreturn.ToCharArray().Reverse().ToArray());
                     toreturn = toreturn.Replace("_", " ");
@@ -203,7 +204,12 @@ namespace mergedServices
                     //This part to return the one after the #
                     if (toreturn.Contains("#"))
                         return toreturn.Substring(toreturn.IndexOf("#"));
-                    return toreturn;
+                    if (toreturn.Length > 0)
+                        return toreturn;
+                    //this one is to return if empty
+                    else
+                        return URI;
+
                 }
                 else
                 {
@@ -216,6 +222,7 @@ namespace mergedServices
                 //returning it
                 return ((LiteralNode)results[0].Value("obj")).Value;
             }
+
         }
 		
         /// <summary>

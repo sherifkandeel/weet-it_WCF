@@ -179,7 +179,7 @@ namespace mergedServices
 
                         else
                         {
-                            if (!(uris.Contains(uri.Value("redirects").ToString())) && uri.Value("redirects") != null)//ensure uri is not already in the list
+                            if (uri.Value("redirects") != null && !(uris.Contains(uri.Value("redirects").ToString())))//ensure uri is not already in the list
                             {
                                 uris.Add(uri.Value("redirects").ToString());
                                 scores.Add(levdistance);

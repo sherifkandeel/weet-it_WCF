@@ -94,7 +94,7 @@ namespace mergedServices
                             {
                                 entities = getQueryResults("getSubjects", subjectURI, (elem.Value), resultLimit);
                             }
-                            KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(elem.Value, entities);
+                            KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(util.getLabel(elem.Value), entities);
                             profileContent.Add(key);
                         }
                         typeFound = true;
@@ -127,7 +127,7 @@ namespace mergedServices
                 foreach (String predicateName in predicateNames)
                 {
                     entitiesExecluded = getQueryResults("getObjects", subjectURI, predicateName, resultLimit);
-                    KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(predicateName, entitiesExecluded);
+                    KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(util.getLabel(predicateName), entitiesExecluded);
                     profileContent.Add(key);
                 }
             }

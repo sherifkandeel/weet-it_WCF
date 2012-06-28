@@ -14,11 +14,13 @@ namespace mergedServices
     {
         public static SparqlResultSet RequestWithHTTP(string request)
         {
-            SparqlResultSet toreturn = new SparqlResultSet();
+            SparqlResultSet toreturn = new SparqlResultSet();            
             try
             {
-                SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri(new StreamReader("endpointURI.txt").ReadLine()));
-                endpoint.Timeout = 999999;                
+                StreamReader sr = new StreamReader("endpointURI.txt");
+                SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri(sr.ReadLine()));
+                sr.Close();
+                endpoint.Timeout = 999999;
                 toreturn = endpoint.QueryWithResultSet(request);
             }
             catch (Exception e)

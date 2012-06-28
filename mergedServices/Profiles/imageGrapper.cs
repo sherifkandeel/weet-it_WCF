@@ -13,12 +13,13 @@ namespace mergedServices
     public static class imageGrapper
     {
         //we should consider replacing the api call with querying from the local server
-        static string sameasServicelink = "http://sameas.org/text";
+        // static string sameasServicelink = "http://sameas.org/text";
         static string fb_imageApi = "https://usercontent.googleapis.com/freebase/v1/image/m/";
         public enum E { small, medium, large };
         static string largeimg = "?maxwidth=500&maxheight=500";
         static string smallimg = "?maxwidth=100&maxheight=100";
-
+        static string medimg = "?maxwidth=250&maxheight=250";
+        static string sameAs_URI_property = "http://www.w3.org/2002/07/owl#sameAs";
         /// <summary>
         /// this function will check first for dbpedia image link
         /// </summary>
@@ -78,47 +79,61 @@ namespace mergedServices
         /// <returns></returns>
         public static string get_fb_link(string dbpedialink, E imgsize)
         {
-            string temp;
-            string freebaselink;
+            string SameAs_query = "select distinct ?freebaselink where {<" + dbpedialink + "> <" + sameAs_URI_property + "> ?freebaselink }";
+
+            string freebaselink = "";
             string entity_freebase_id;
-            List<string> similaruris = new List<string>() ;
-            string[] sep = new string[] { "\n" };
-            WebClient dondloadtext = new WebClient();
-            dondloadtext.QueryString.Add("uri", dbpedialink);
-            try
-            {
-                 temp = dondloadtext.DownloadString(sameasServicelink);
-                 similaruris = temp.Split(sep, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
-            }
-            catch( HttpListenerException noService)
-            {
+            //  List<string> similaruris = new List<string>() ;
+            //   string[] sep = new string[] { "\n" };
+            //WebClient dondloadtext = new WebClient();
+            //dondloadtext.QueryString.Add("uri", dbpedialink);
+            //try
+            //{
+            //     temp = dondloadtext.DownloadString(sameasServicelink);
+            //     similaruris = temp.Split(sep, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            //}
+            //catch( HttpListenerException noService)
+            //{
 
-                return null;
-            }
-            
-            
-            foreach (string it in similaruris)
+            //    return null;
+            //}
+
+            SparqlResultSet freebase_sameAs = Request.RequestWithHTTP(SameAs_query);
+
+            if (freebase_sameAs.Count != 0)
             {
-                if (it.Contains("rdf.freebase") && it.Contains("m."))
+                freebaselink = freebase_sameAs[0].Value("freebaselink").ToString();
+                freebaselink = freebaselink.Replace("<", "");
+                freebaselink = freebaselink.Replace(">", "");
+                entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m/") + 3);
+
+                switch (imgsize)
                 {
-                    
-                    freebaselink = it;
-
-                    freebaselink = freebaselink.Replace("<", "");
-                    freebaselink = freebaselink.Replace(">", "");
-                    entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m.") + 3);
-                    switch (imgsize)
-                    {
-                        case E.small:
-                            return (fb_imageApi + entity_freebase_id + smallimg);
-                        case E.large:
-                            return (fb_imageApi + entity_freebase_id + largeimg);
-
-                    }
+                    case E.small:
+                        return (fb_imageApi + entity_freebase_id + smallimg);
+                    case E.large:
+                        return (fb_imageApi + entity_freebase_id + largeimg);
+                    case E.medium:
+                        return (fb_imageApi + entity_freebase_id + medimg);
 
                 }
-
             }
+
+            //foreach (string it in similaruris)
+            //{
+            //    if (it.Contains("rdf.freebase") && it.Contains("m."))
+            //    {
+
+            //        freebaselink = it;
+
+            //        freebaselink = freebaselink.Replace("<", "");
+            //        freebaselink = freebaselink.Replace(">", "");
+            //        entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m.") + 3);
+
+
+            //    }
+
+            //}
 
 
             return null;

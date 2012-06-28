@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 namespace mergedServices
 {
     [DataContract]
-    public class LiteralProfile
+    public class LiteralProfile :Profile
     {
         [DataMember]
         public string PredicateLabel;

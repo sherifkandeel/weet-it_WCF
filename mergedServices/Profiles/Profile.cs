@@ -9,6 +9,7 @@ namespace mergedServices
 
     [DataContract]
     [KnownType(typeof(MicroProfile))]
+    [KnownType(typeof(LiteralProfile))]
     public class Profile
     {        
 

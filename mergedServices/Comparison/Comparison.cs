@@ -158,53 +158,77 @@ namespace mergedServices
         /// <returns>The same resource Again</returns>
         public ResourceInformation fillComparisonComponent(ResourceInformation input)
         {           
-            var q = from x in input.predicates_resourceIsSubj
-                    group x by x into g
-                    let count = g.Count()
-                    //orderby count descending
-                    select new { Value = g.Key, Count = count };
-
-            int counter = 0;
-            foreach (var x in q)
+                        //we have to make sure the resource information is not empty 
+            if (input.resources_resourceIsSubj.Count > 1)
             {
-                List<KeyValuePair<string, string>> tempRes = new List<KeyValuePair<string, string>>();
-                KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>> temp = new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>();
-                KeyValuePair<string, string> predicates= new KeyValuePair<string, string>();
-                predicates = x.Value;
-                for (int i = counter; i < counter+x.Count; i++)
+                //temp to fill in
+                List<KeyValuePair<string, string>> tempList = new List<KeyValuePair<string, string>>();
+                KeyValuePair<string, string> tempPred;
+
+                tempPred = input.predicates_resourceIsSubj[0];
+                tempList.Add(input.resources_resourceIsSubj[0]);
+                for (int i = 1; i < input.predicates_resourceIsSubj.Count; i++)
                 {
-                    tempRes.Add(input.resources_resourceIsSubj[i]);                                        
+                    if (input.predicates_resourceIsSubj[i].Equals(tempPred))
+                    {
+                        tempList.Add(input.resources_resourceIsSubj[i]);                        
+                    }
+                    else
+                    {           
+                        input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList));
+                        tempPred = input.predicates_resourceIsSubj[i];
+                        tempList = new List<KeyValuePair<string, string>>();
+                        tempList.Add(input.resources_resourceIsSubj[i]);
+                    }
                 }
-                temp = new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(predicates, tempRes);
-                input.rawComparisonObject.Add(temp);
-                //Console.WriteLine("Value: " + x.Value + " Count: " + x.Count);
-                counter += x.Count;
+
+                input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList));
+
+
+            }
+            if (input.resources_resourceIsObj.Count > 1)
+            {
+                //temp to fill in
+                List<KeyValuePair<string, string>> tempList = new List<KeyValuePair<string, string>>();
+                KeyValuePair<string, string> tempPred;
+
+                tempPred = input.predicates_resourceIsObj[0];
+                tempList.Add(input.resources_resourceIsObj[0]);
+                for (int i = 1; i < input.predicates_resourceIsObj.Count; i++)
+                {
+                    
+                    if (input.predicates_resourceIsObj[i].Equals(tempPred))
+                    {
+                        tempList.Add(input.resources_resourceIsObj[i]);
+                    }
+                    else
+                    {
+                        input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList.Distinct().ToList()));
+                        tempPred = input.predicates_resourceIsObj[i];
+                        tempList = new List<KeyValuePair<string, string>>();
+                        tempList.Add(input.resources_resourceIsObj[i]);
+                    }
+                }
+
+                input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList.Distinct().ToList()));
+
+
+            }
+            //removing duplicates
+            for (int i = 0; i < input.rawComparisonObject.Count; i++)
+            {
+                for (int j = i+1; j < input.rawComparisonObject.Count; j++)
+                {
+                    if (input.rawComparisonObject[i].Key.Value.Equals(input.rawComparisonObject[j].Key.Value))
+                    {
+                        //we remove the one with the smallest resources
+                        int indexofremoval = input.rawComparisonObject[i].Value.Count < input.rawComparisonObject[j].Value.Count ? i : j;
+                        input.rawComparisonObject.RemoveAt(indexofremoval);
+                    }
+                }
             }
 
 
-            /////////
-            var q2 = from x in input.predicates_resourceIsObj
-                    group x by x into g
-                    let count = g.Count()
-                    //orderby count descending
-                    select new { Value = g.Key, Count = count };
-
-            counter = 0;
-            foreach (var x in q2)
-            {
-                List<KeyValuePair<string, string>> tempRes = new List<KeyValuePair<string, string>>();
-                KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>> temp = new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>();
-                KeyValuePair<string, string> predicates = new KeyValuePair<string, string>();
-                predicates = x.Value;
-                for (int i = counter; i < counter + x.Count; i++)
-                {
-                    tempRes.Add(input.resources_resourceIsObj[i]);
-                }
-                temp = new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(predicates, tempRes);
-                input.rawComparisonObject.Add(temp);
-                //Console.WriteLine("Value: " + x.Value + " Count: " + x.Count);
-            }
-            /////////
             return input;
         }
 

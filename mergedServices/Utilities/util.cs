@@ -180,7 +180,9 @@ namespace mergedServices
             //if the string is empty return it as it is
             if (URI.Length == 0)
                 return URI;
-
+			//in case this is not a valid uri
+			if (!Uri.IsWellFormedUriString(URI, UriKind.Absolute))
+				return URI;
             //at least best one for now
             URI = Uri.EscapeUriString(URI);
             //SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));

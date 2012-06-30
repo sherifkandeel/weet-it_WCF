@@ -21,7 +21,7 @@ namespace mergedServices
         public Dictionary<string, string> subjectUriList;
         [DataMember]
         public Dictionary<string, string> subjectLabelList;
-        [DataMember]
+       
         public List<LexiconPredicate> predicateList;
         [DataMember]
         public Dictionary<string, string> predicateUriList;

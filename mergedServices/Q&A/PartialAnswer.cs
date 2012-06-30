@@ -7,14 +7,16 @@ using VDS.RDF;
 
 namespace mergedServices
 {
+    [DataContract]
     public class PartialAnswer
     {
+        [DataMember]
         public util.questionTypes questiontype;
-
+        [DataMember]
         public int answerCount;
-
+        [DataMember]
         public List<string> objectUriList;
-
+        [DataMember]
         public List<string> objectLabelList;
 
         public PartialAnswer(questionAnswer answer)

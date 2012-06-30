@@ -12,3 +12,4 @@ http://www.w3.org/2002/07/owl#sameAs
 http://dbpedia.org/property/wikiPageUsesTemplate
 http://dbpedia.org/property/dateOfBirth
 http://xmlns.com/foaf/0.1/primaryTopic
+http://dbpedia.org/property/gini

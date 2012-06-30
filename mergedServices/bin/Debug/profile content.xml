@@ -37,12 +37,12 @@
 			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
 			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
 		</City>
-		<Organisation URI="http://dbpedia.org/ontology/Organisation">
+		<Company URI="http://dbpedia.org/ontology/Company">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/industry</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/product</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/revenue</predicate>
 			<predicate queryType="getSubjects">http://dbpedia.org/ontology/manufacturer</predicate>
-		</Organisation>
+		</Company>
 		<Country URI="http://dbpedia.org/ontology/Country">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/capital</predicate>
@@ -140,7 +140,7 @@
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/leaderName</predicate>
 		</City>
-		<Organisation URI="http://dbpedia.org/ontology/Organisation">
+		<Company URI="http://dbpedia.org/ontology/Company">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/industry</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/product</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/revenue</predicate>
@@ -156,7 +156,7 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/numberOfStaff</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/parentCompany</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/successor</predicate>
-		</Organisation>
+		</Company>
 		<Country URI="http://dbpedia.org/ontology/Country">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/capital</predicate>

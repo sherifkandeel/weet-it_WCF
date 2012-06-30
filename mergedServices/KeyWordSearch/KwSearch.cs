@@ -35,15 +35,15 @@ namespace mergedServices
         {
             int score_redirect = 0;
             int score_resource = 0;
-            score_resource = computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString());
+            score_resource = computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString().Replace("@en",""));
             if (singleuri.Value("redirects") != null)
             {
                 string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?redirect_label}";
                 SparqlResultSet result = Request.RequestWithHTTP(disamb_query);
                 if (result.Count != 0)
                 {
-                    score_redirect = computeLevenshteinDistance(keyword, result[0].Value("redirect_label").ToString());
-                    return (score_redirect < score_resource ? score_redirect : score_resource);
+                    score_redirect = computeLevenshteinDistance(keyword, result[0].Value("redirect_label").ToString().Replace("@en", ""));
+                    return (score_redirect <= score_resource ? score_redirect : score_resource);
                 }
                 else
                 {
@@ -164,7 +164,7 @@ namespace mergedServices
                             break;
 
                         }
-
+                       
                         iterator++;
                     }
                     if (broke == false)

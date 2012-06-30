@@ -558,16 +558,18 @@ namespace mergedServices
                 }
             }
 
-
+            List<LexiconPredicate> toRemove = new List<LexiconPredicate>();
             //step2 : the inDirect Way -- for predicates that didn't have a Domain or range selected before 
             foreach (LexiconPredicate x in predicateList)
             {
 
                 bool hasDomain = (x.domains.Count == 0) ? false : true;
                 bool hasRange = (x.ranges.Count == 0) ? false : true;
+                
 
                 if (!hasDomain && !hasRange)
                 {
+                    toRemove.Add(x);
                     continue;
                 }
 
@@ -630,6 +632,10 @@ namespace mergedServices
                         }
                     }
                 }
+            }
+            foreach (LexiconPredicate x in toRemove)
+            {
+                predicateList.Remove(x);
             }
 
             return predicateList;

@@ -210,6 +210,17 @@
 		</SportsTeam>
 	</full>
 <execludedPredicates>
-	<predicate>http://dbpedia.org/ontology/activeYearsEndDate</predicate>
+	<predicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</predicate>
+	<predicate>http://www.w3.org/2000/01/rdf-schema#comment</predicate>
+	<predicate>http://www.w3.org/2002/07/owl#sameAs</predicate>
+	<predicate>http://purl.org/dc/terms/subject</predicate>
+	<predicate>http://www.w3.org/2000/01/rdf-schema#label</predicate>
+	<predicate>http://dbpedia.org/ontology/wikiPageWikiLink</predicate>
+	<predicate>http://dbpedia.org/ontology/thumbnail</predicate>
+	<predicate>http://xmlns.com/foaf/0.1/depiction</predicate>
+	<predicate>http://dbpedia.org/ontology/abstract</predicate>
+	<predicate>http://xmlns.com/foaf/0.1/name</predicate>
+	<predicate>http://xmlns.com/foaf/0.1/surname</predicate>
+	<predicate>http://xmlns.com/foaf/0.1/givenName</predicate>
 </execludedPredicates>
 </profile>

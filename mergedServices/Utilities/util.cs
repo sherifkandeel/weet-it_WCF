@@ -13,10 +13,11 @@ namespace mergedServices
 {
     public static class util
     {
-        public  enum questionTypes { 
-            literalOrURIAnswer, 
-            literalAnswer, 
-            URIAsnwer, 
+        public enum questionTypes
+        {
+            literalOrURIAnswer,
+            literalAnswer,
+            URIAsnwer,
             countAnswer,
             unkown
         };
@@ -213,19 +214,31 @@ namespace mergedServices
             }
         }
 
+        //static value to load only at the beginning, containing the uris
         public static List<string> allowedURIs = loadAllowedLabels();
+
+        /// <summary>
+        /// loading the allowed uris of our database
+        /// </summary>
+        /// <returns>list of strings containing the allowerd uris</returns>
         public static List<string> loadAllowedLabels()
         {
             List<string> toreturn = new List<string>();
             StreamReader sr = new StreamReader("URIsToGetLabelFor.txt");
             while (!sr.EndOfStream)
             {
-                toreturn.Add(sr.ReadLine()); 
+                toreturn.Add(sr.ReadLine());
             }
             sr.Close();
             return toreturn;
         }
-        public static bool isInternalURI(string input)
+
+        /// <summary>
+        /// checks to see if the uri is from our dbpedia databse
+        /// </summary>
+        /// <param name="input">the uri to check</param>
+        /// <returns>whether or not it's internal</returns>
+        private static bool isInternalURI(string input)
         {
             for (int i = 0; i < allowedURIs.Count; i++)
             {
@@ -235,17 +248,36 @@ namespace mergedServices
             return false;
         }
 
+        /// <summary>
+        /// HELPER FUNCTION FOR THE encdoeURI
+        /// </summary>
+        /// <param name="s">the string to encode</param>
+        /// <returns>the upper case encoded string</returns>
+        private static string UpperCaseUrlEncode(string s)
+        {
+            char[] temp = HttpUtility.UrlEncode(s).ToCharArray();
+            for (int i = 0; i < temp.Length - 2; i++)
+            {
+                if (temp[i] == '%')
+                {
+                    temp[i + 1] = char.ToUpper(temp[i + 1]);
+                    temp[i + 2] = char.ToUpper(temp[i + 2]);
+                }
+            }
+            return new string(temp);
+        }
 
         /// <summary>
-        /// SHERIF WAY OF ENCODING
+        /// SHERIF WAY OF ENCODING OUR URIS (ONLY WORKS WITH DBPEDIA AND SUCH)
+        /// POSSIBLE BUG
         /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        public static string encodeURI(string input)
+        /// <param name="input">INPUT URI</param>
+        /// <returns>THE ENCODED OUTPUT</returns>
+        static string encodeURI(string input)
         {
             int indexAfterSlash = input.LastIndexOf("/") + 1;
             string afterSlash = input.Substring(indexAfterSlash);
-            string encodedAfterSlash = HttpUtility.UrlEncode(afterSlash);
+            string encodedAfterSlash = UpperCaseUrlEncode(afterSlash);
 
             string toreturn = input.Replace(afterSlash, encodedAfterSlash);
             return toreturn;
@@ -281,7 +313,7 @@ namespace mergedServices
                     {
 
                         //at least best one for now
-                        
+
                         //SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
                         string query = "select * where {<" + URI + "> <http://www.w3.org/2000/01/rdf-schema#label> ?obj}";
                         //SparqlResultSet results = endpoint.QueryWithResultSet(query);
@@ -311,13 +343,13 @@ namespace mergedServices
                                 //TODO : get back the encoding
                                 toreturn = toreturn.Trim();
                                 //This part to return the one after the #
-                                if (toreturn.Contains("#") && toreturn.Length>toreturn.LastIndexOf("#"))
+                                if (toreturn.Contains("#") && toreturn.Length > toreturn.LastIndexOf("#"))
                                 {
                                     //adding to the hashset
-                                    addtohashset(URI, toreturn.Substring(toreturn.IndexOf("#")+1));
+                                    addtohashset(URI, toreturn.Substring(toreturn.IndexOf("#") + 1));
 
                                     //return
-                                    return toreturn.Substring(toreturn.IndexOf("#")+1);
+                                    return toreturn.Substring(toreturn.IndexOf("#") + 1);
                                 }
                                 if (toreturn.Length > 0)
                                 {
@@ -363,7 +395,7 @@ namespace mergedServices
                 }
             }
         }
-		
+
         /// <summary>
         /// more strings to be added  
         /// </summary>
@@ -391,28 +423,8 @@ namespace mergedServices
             return toreturn;
         }
 
-        
-        /// <summary>
-        /// Encodes URIs
-        /// </summary>
-        /// <param name="value">the input url to be encoded</param>
-        /// <returns>encoded url</returns>
-        public static string UrlEncode(string value)
-        {
-            if (String.IsNullOrEmpty(value))
-                return String.Empty;
 
-            var sb = new StringBuilder();
 
-            foreach (char @char in value)
-            {
-                if (reservedCharacters.IndexOf(@char) == -1)
-                    sb.Append(@char);
-                else
-                    sb.AppendFormat("%{0:X2}", (int)@char);
-            }
-            return sb.ToString();
-        }
 
         /// <summary>
         ///Gets the type of the question and remove words used to match question type from the question string
@@ -445,7 +457,7 @@ namespace mergedServices
                      * Better to write "//" as the comment line sign as its the common adopted style for writting comments
                      * */
 
-                    while (!(Regex.IsMatch(inputLine,@"^(\^|[a-z])")))
+                    while (!(Regex.IsMatch(inputLine, @"^(\^|[a-z])")))
                         inputLine = questionTypeFile.ReadLine();
 
                     questionTypeList.Add(inputLine);
@@ -495,11 +507,11 @@ namespace mergedServices
             {
                 case "count":
                     {
-                        return questionTypes.countAnswer; 
+                        return questionTypes.countAnswer;
                     }
                 case "normal":
                     {
-                        return questionTypes.literalOrURIAnswer; 
+                        return questionTypes.literalOrURIAnswer;
                     }
                 default:
                     {

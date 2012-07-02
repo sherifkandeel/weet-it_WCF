@@ -24,6 +24,8 @@ namespace mergedServices
 
         public Profile ConstructProfile(String subjectURI, choiceProfile profile, int resultLimit = 10)
         {
+            if (util.isInternalURI(subjectURI) && !Uri.IsWellFormedUriString(subjectURI, UriKind.Absolute))
+                subjectURI = util.encodeURI(subjectURI);
             if (profile == choiceProfile.micro)
             {
                 MicroProfile micro = new MicroProfile();
@@ -148,15 +150,15 @@ namespace mergedServices
             foreach (SparqlResult result in results)
             {
                 Entity en = new Entity();
-                if ((((INode)result[0]).NodeType == NodeType.Uri))
+                if ((((INode)result[0]).NodeType == NodeType.Uri) && util.isInternalURI(result.Value("obj").ToString()))
                 {
-                    if (result.Value("obj").ToString().Contains("dbpedia.org"))
-                    {
+                    //if (result.Value("obj").ToString().Contains("dbpedia.org"))
+                    //{
                         en.Label = util.getLabel(result.Value("obj").ToString());
                         en.URI = result.Value("obj").ToString();
-                    }
-                    else               //Hack to get webpage without considering it URIs
-                        en.Label = result.Value("obj").ToString();    
+                    //}
+                    //else               //Hack to get webpage without considering it URIs
+                      //  en.Label = result.Value("obj").ToString();    
                 }
                 else
                 {

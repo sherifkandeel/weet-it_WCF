@@ -225,7 +225,7 @@ namespace mergedServices
             sr.Close();
             return toreturn;
         }
-        private static bool isInternalURI(string input)
+        public static bool isInternalURI(string input)
         {
             for (int i = 0; i < allowedURIs.Count; i++)
             {
@@ -241,7 +241,7 @@ namespace mergedServices
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        static string encodeURI(string input)
+        public static string encodeURI(string input)
         {
             int indexAfterSlash = input.LastIndexOf("/") + 1;
             string afterSlash = input.Substring(indexAfterSlash);

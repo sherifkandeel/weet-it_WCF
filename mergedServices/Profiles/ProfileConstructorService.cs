@@ -30,10 +30,10 @@ namespace mergedServices
             {
                 MicroProfile micro = new MicroProfile();
                 String abst = getAbstract(subjectURI);
-                if (abst.Length > 280)
+                if ( abst != null && abst.Length > 280)
                 {
                     String temp = abst.Substring(279);
-                    micro.Abstract = abst.Substring(0, 280 + temp.IndexOf(" ")) + " ...";
+                    micro.Abstract = abst.Substring(0, 280 + temp.IndexOf(" ")) + "...";
                 }
                 else
                     micro.Abstract = abst;
@@ -46,7 +46,7 @@ namespace mergedServices
             {
                 MiniProfile mini = new MiniProfile();
                 String abst = getAbstract(subjectURI);
-                if (abst.Length > 560)
+                if (abst != null && abst.Length > 560)
                 {
                     String temp = abst.Substring(559);
                     mini.Abstract = abst.Substring(0, 560 + temp.IndexOf(" ")) + " ...";

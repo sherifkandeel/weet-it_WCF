@@ -80,13 +80,13 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/league</predicate>
 		</SportsTeam>
 		<Person URI="http://dbpedia.org/ontology/Person">
-			<predicate queryType="getObjects">http://localhost:8890/ontology/birthDate</predicate>
-			<predicate queryType="getObjects">http://localhost:8890/ontology/birthPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthPlace</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
-			<predicate queryType="getObjects">http://localhost:8890/ontology/child</predicate>
-			<predicate queryType="getObjects">http://localhost:8890/ontology/spouse</predicate>
-			<predicate queryType="getObjects">http://localhost:8890/ontology/deathPlace</predicate>
-			<predicate queryType="getObjects">http://localhost:8890/ontology/deathDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/child</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/spouse</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathDate</predicate>
 		</Person>
 	</mini>
 	<full>
@@ -208,6 +208,15 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/chairman</predicate>
 			<predicate queryType="getObjects">http://xmlns.com/foaf/0.1/homepage</predicate>
 		</SportsTeam>
+		<Person URI="http://dbpedia.org/ontology/Person">
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthDate</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/birthPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/child</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/spouse</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathPlace</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/deathDate</predicate>
+		</Person>
 	</full>
 <execludedPredicates>
 	<predicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</predicate>

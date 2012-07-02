@@ -78,6 +78,8 @@ namespace mergedServices
                 full.Related = related;
                 full.Details = setProfileContents("full", subjectURI, resultLimit);
                 full.Picture = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.large);
+                full.Location = getLocation(subjectURI);
+
                 return full;
             }
             return null;
@@ -201,6 +203,23 @@ namespace mergedServices
                 return ((LiteralNode)result.Value("obj")).Value;
             }
             else return null;
+        }
+
+        private Location getLocation(String SubjectURI)
+        {
+            Location location = new Location();
+            String query = "select * where {<" + SubjectURI + "><http://www.w3.org/2003/01/geo/wgs84_pos#long> ?obj}";
+            SparqlResultSet resultsLong = Request.RequestWithHTTP(query);
+            query = "select * where {<" + SubjectURI + "><http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?obj}";
+            SparqlResultSet resultsLat = Request.RequestWithHTTP(query);
+            if (resultsLat.Count != 0 && resultsLong.Count != 0)
+            {
+                SparqlResult resultLat = resultsLat[0];
+                SparqlResult resultLong = resultsLong[0];
+                location.Latitude = ((LiteralNode)resultLat.Value("obj")).Value;
+                location.Longitude = ((LiteralNode)resultLong.Value("obj")).Value;
+            }
+                return location;
         }
     }
 }

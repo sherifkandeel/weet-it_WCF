@@ -104,13 +104,20 @@ namespace mergedServices
                         foreach (XElement elem in elements)
                         {
                             List<Entity> entities = new List<Entity>();
+                            KeyValuePair<String, List<Entity>> key;
                             if (elem.Attribute("queryType").Value == "getObjects")
+                            {
                                 entities = getQueryResults("getObjects", subjectURI, (elem.Value), resultLimit);
+                                key = new KeyValuePair<String, List<Entity>>(util.getLabel(elem.Value), entities);
+                            }
                             else if (elem.Attribute("queryType").Value == "getSubjects")
                             {
                                 entities = getQueryResults("getSubjects", subjectURI, (elem.Value), resultLimit);
+                                key = new KeyValuePair<String, List<Entity>>(util.getLabel(elem.Value) + " of", entities);
                             }
-                            KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(util.getLabel(elem.Value), entities);
+                            //KeyValuePair<String, List<Entity>> key = new KeyValuePair<String, List<Entity>>(util.getLabel(elem.Value), entities);
+                            else
+                                key = new KeyValuePair<String, List<Entity>>();
                             profileContent.Add(key);
                         }
                         typeFound = true;

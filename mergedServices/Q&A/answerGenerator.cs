@@ -67,13 +67,13 @@ namespace mergedServices
                                 {
                                     answer.predicateList.Add(token as LexiconPredicate);
                                     answer.predicateUriList.Add(token.URI, token.QuestionMatch);
-                                    answer.predicateLabelList.Add(token.label, token.QuestionMatch);
+                                    answer.predicateLabelList.Add(util.getLabel(token.URI), token.QuestionMatch);
                                 }
                                 else if (token is LexiconLiteral)
                                 {
                                     answer.subjectList.Add(token as LexiconLiteral);
                                     answer.subjectUriList.Add(token.URI, token.QuestionMatch);
-                                    answer.subjectLabelList.Add(token.label, token.QuestionMatch);
+                                    answer.subjectLabelList.Add(util.getLabel(token.URI), token.QuestionMatch);
                                 }
                             }
 

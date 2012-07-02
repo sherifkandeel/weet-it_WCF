@@ -14,6 +14,7 @@ namespace mergedServices
         private string question;
         private int questionType;
         private Lexicon lexicon;
+        private bool isKeywordSearch;
         
 
         /// <summary>
@@ -389,6 +390,8 @@ namespace mergedServices
 
             queryBuckets = cleanBucket(queryBuckets);
 
+            isKeywordSearch = IsKeywordSearch(queryBuckets);
+
             //// remove duplicates ie. if for any solution another one has the same content in the bucket remove that
             //foreach (QueryBucket bucket1 in queryBuckets)
             //{
@@ -720,6 +723,39 @@ namespace mergedServices
             #endregion
 
             return queryBuckets;
+        }
+
+        bool IsKeywordSearch(List<QueryBucket> queryBuckets)
+        {
+            bool isKeywordSearch = true;
+            List<QueryBucket> tempList = new List<QueryBucket>();
+
+            foreach (QueryBucket bucket in queryBuckets)
+            {
+                foreach (LexiconToken token in bucket.tokens)
+                {
+                    if (token is LexiconPredicate)
+                    {
+                        isKeywordSearch = false;
+                        break;
+                    }
+                }
+            }
+
+            if (!isKeywordSearch)
+            {
+                for (int i = 0 ; i < queryBuckets.Count ; i++)
+                {
+                    if (queryBuckets[i].literalOnly)
+                    {
+                        queryBuckets.RemoveAt(i);
+                        i--;
+                    }
+                }
+                
+            }
+            
+            return isKeywordSearch;
         }
 
 

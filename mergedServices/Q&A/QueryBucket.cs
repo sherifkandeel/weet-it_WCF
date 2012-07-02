@@ -219,7 +219,7 @@ namespace mergedServices
                                 if (tmpLiteralPart[i].Length > 0)
                                     tmpLiteralPart[i] += " || ";
 
-                                tmpLiteralPart[i] += "?" + util.URIToSimpleString(typeOfOwner) + " = <" + util.UrlEncode(tmpLiteral.URI) + ">";
+                                tmpLiteralPart[i] += "?" + util.URIToSimpleString(typeOfOwner) + " = <" + util.encodeURI(tmpLiteral.URI) + ">";
                             }
                         }
                     }

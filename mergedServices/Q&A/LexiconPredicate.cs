@@ -63,7 +63,7 @@ namespace mergedServices
             List<string> simpleRange = util.URIToSimpleString(ranges);
             string predicateQueryPart = "";
 
-            predicateQueryPart += "?" + simpleDomain[0] + " <" + util.UrlEncode(this.URI) + "> " + "?Range";
+            predicateQueryPart += "?" + simpleDomain[0] + " <" + util.encodeURI(this.URI) + "> " + "?Range";
 
             predicateQueryPart += " . " + "?" + simpleDomain[0] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + domains[0] + ">";
 

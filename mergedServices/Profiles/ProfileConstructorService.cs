@@ -29,7 +29,14 @@ namespace mergedServices
             if (profile == choiceProfile.micro)
             {
                 MicroProfile micro = new MicroProfile();
-                micro.Abstract = getAbstract(subjectURI);
+                String abst = getAbstract(subjectURI);
+                if (abst.Length > 280)
+                {
+                    String temp = abst.Substring(279);
+                    micro.Abstract = abst.Substring(0, 280 + temp.IndexOf(" ")) + " ...";
+                }
+                else
+                    micro.Abstract = abst;
                 micro.Label = util.getLabel(subjectURI);
                 micro.Picture = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.small);
                 micro.URI = subjectURI;
@@ -38,7 +45,14 @@ namespace mergedServices
             else if (profile == choiceProfile.mini)
             {
                 MiniProfile mini = new MiniProfile();
-                mini.Abstract = getAbstract(subjectURI);
+                String abst = getAbstract(subjectURI);
+                if (abst.Length > 560)
+                {
+                    String temp = abst.Substring(559);
+                    mini.Abstract = abst.Substring(0, 560 + temp.IndexOf(" ")) + " ...";
+                }
+                else
+                    mini.Abstract = abst;
                 mini.Label = util.getLabel(subjectURI);
                 mini.URI = subjectURI;
                 mini.Details = setProfileContents("mini", subjectURI, resultLimit);
@@ -150,15 +164,15 @@ namespace mergedServices
             foreach (SparqlResult result in results)
             {
                 Entity en = new Entity();
-                if ((((INode)result[0]).NodeType == NodeType.Uri) && util.isInternalURI(result.Value("obj").ToString()))
+                if ((((INode)result[0]).NodeType == NodeType.Uri))
                 {
-                    //if (result.Value("obj").ToString().Contains("dbpedia.org"))
-                    //{
+                    if (util.isInternalURI(result.Value("obj").ToString()))
+                    {
                         en.Label = util.getLabel(result.Value("obj").ToString());
                         en.URI = result.Value("obj").ToString();
-                    //}
-                    //else               //Hack to get webpage without considering it URIs
-                      //  en.Label = result.Value("obj").ToString();    
+                    }
+                    else               //Hack to get webpage without considering it URIs
+                        en.Label = result.Value("obj").ToString();    
                 }
                 else
                 {

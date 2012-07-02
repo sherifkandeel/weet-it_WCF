@@ -14,7 +14,7 @@ namespace mergedServices
     public static class KwSearch
     {
         static string[] versus_delimeter = new string[] { " vs ", "VS", "Vs", "vS" };
-
+        static char[] space_delimeter = new char[] { ' ' };
         //static SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
 
 
@@ -26,20 +26,51 @@ namespace mergedServices
         private static string bifcont_generator(string keyword)
         {
             List<string> kw_words;
-            kw_words = keyword.Split(' ').ToList<string>();
+            kw_words = keyword.Split(space_delimeter,StringSplitOptions.RemoveEmptyEntries).ToList<string>();
             for (int i = 0; i < kw_words.Count; i++)
+            {
+                kw_words[i] = kw_words[i].Trim();
                 kw_words[i] = "\"" + kw_words[i] + "\"";
+            }
             return string.Join("and", kw_words);
+        }
+        private static string bifcont_generator1(string keyword)
+        {
+            List<string> kw_words;
+            kw_words = keyword.Split(space_delimeter, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            for (int i = 0; i < kw_words.Count; i++)
+            {
+                kw_words[i] = kw_words[i].Trim();
+                kw_words[i] = "\"" + kw_words[i] + "\"";
+            }
+            return string.Join("or", kw_words);
         }
         private static int scorecalc(string keyword, SparqlResult singleuri)
         {
+            List<string> disambiguate_links = new List<string>();
+            string check_disambig;
             int score_redirect = 0;
             int score_resource = 0;
-            score_resource = computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString().Replace("@en",""));
+            SparqlResultSet result;
+            score_resource = computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString().Replace("@en", ""));
             if (singleuri.Value("redirects") != null)
             {
+                if (singleuri.Value("redirects").ToString() == "http://dbpedia.org/resource/Astro")
+                {
+                    check_disambig = "gg";
+                }
+                if (disambiguate_links.Contains(singleuri.Value("redirects").ToString()))
+                    return 1000;
+                check_disambig = "ASK where {<" + singleuri.Value("redirects").ToString() + "> <http://dbpedia.org/ontology/wikiPageDisambiguates>    ?disamb                       }";
+                result = Request.RequestWithHTTP(check_disambig);
+                if (result.Result == true)
+                {
+                    disambiguate_links.Add(singleuri.Value("redirects").ToString());
+                    return 1000;
+                }
+
                 string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?redirect_label}";
-                SparqlResultSet result = Request.RequestWithHTTP(disamb_query);
+                result = Request.RequestWithHTTP(disamb_query);
                 if (result.Count != 0)
                 {
                     score_redirect = computeLevenshteinDistance(keyword, result[0].Value("redirect_label").ToString().Replace("@en", ""));
@@ -67,18 +98,16 @@ namespace mergedServices
             string bifcontains = bifcont_generator(keyword);
 
             query =
-                "select distinct  ?subject ?literal ?redirects where{" +
-
-
-                "?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal." +
-
-                "optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}." +
-
-                "optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}." +
-
-                "Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) ." +
-
+               "select distinct ?subject ?literal ?redirects where{" + 
+               "?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal." + 
+               "optional { ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}." + 
+               "optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}." +
+               "optional { ?subject   <http://dbpedia.org/ontology/wikiPageDisambiguates>  ?disamb}"+
+"Filter ( ( !bound(?type) && !bound(?disamb)) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) ." +
+ 
                 "?literal bif:contains '" + bifcontains + "'.}" + "limit" + " 100";
+
+
 
 
 
@@ -87,12 +116,25 @@ namespace mergedServices
             if (result.Count == 0)
             {
                 //a panic mode to be added to generate a more generic query with more results
-                uris.Add("");
+                bifcontains = bifcont_generator1(keyword);
+                query =
+                  "select distinct ?subject ?literal ?redirects where{" +
+               "?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal." +
+               "optional { ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}." +
+               "optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}." +
+               "optional { ?subject   <http://dbpedia.org/ontology/wikiPageDisambiguates>  ?disamb}" +
+"Filter ( ( !bound(?type) && !bound(?disamb)) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) ." +
+
+                "?literal bif:contains '" + bifcontains + "'.}" + "limit" + " 100";
+
+                result = Request.RequestWithHTTP(query);
+                if (result.Count == 0)
+                    return null;
+              
 
             }
 
-            else
-            {
+           
                 int iterator = 0;
                 //add first result to list
                 // levdistance = computeLevenshteinDistance(keyword, result[0].Value("literal").ToString());
@@ -112,7 +154,7 @@ namespace mergedServices
 
                 foreach (SparqlResult uri in result)
                 {
-
+                  
                     bool broke = false;
                     iterator = 0;
                     levdistance = scorecalc(keyword, uri);
@@ -191,7 +233,7 @@ namespace mergedServices
 
 
 
-            }
+            
             if (uris.Count >= MaxUris)
                 return uris.GetRange(0, MaxUris);
             else return uris;
@@ -208,7 +250,7 @@ namespace mergedServices
 
         public static string geturi(string keyword)
         {
-
+            
             return Find_URIs(keyword, 1)[0];
         }
         /// <summary>

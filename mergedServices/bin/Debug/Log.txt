@@ -1564,3 +1564,726 @@ New Bucket----------------------------	3:30:02 AM
 select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:30:02 AM
 New Bucket----------------------------	3:30:02 AM
 select distinct * WHERE { ?Place <http://dbpedia.org/ontology/locatedInArea> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	3:30:02 AM
+ finished getting 0 predicates  Time taken : 2947.1686 msec	04:10:32 PM
+total time taken :2970.1699 mSecs	04:10:32 PM
+total time taken :41.0023 msecs 	04:10:32 PM
+search for combination possibilities among predicates	04:10:32 PM
+loop over 1	04:10:32 PM
+ search for combinations using literals among 1 Querybuckets 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+-----------------------	04:10:32 PM
+QUESTION LEFT: 	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+New Bucket----------------------------	04:10:32 PM
+ finished getting 0 predicates  Time taken : 7048.4031 msec	04:22:03 PM
+total time taken :7051.4033 mSecs	04:22:03 PM
+total time taken :82.0047 msecs 	04:22:03 PM
+search for combination possibilities among predicates	04:22:03 PM
+loop over 1	04:22:03 PM
+ search for combinations using literals among 1 Querybuckets 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+QUESTION LEFT: 	04:22:03 PM
+-----------------------	04:22:03 PM
+ finished getting 0 predicates  Time taken : 7389.4226 msec	04:22:03 PM
+total time taken :7391.4227 mSecs	04:22:03 PM
+total time taken :23.0013 msecs 	04:22:03 PM
+search for combination possibilities among predicates	04:22:03 PM
+loop over 1	04:22:04 PM
+ search for combinations using literals among 1 Querybuckets 	04:22:04 PM
+-----------------------	04:22:04 PM
+QUESTION LEFT: 	04:22:04 PM
+-----------------------	04:22:04 PM
+QUESTION LEFT: 	04:22:04 PM
+-----------------------	04:22:04 PM
+QUESTION LEFT: 	04:22:04 PM
+-----------------------	04:22:04 PM
+ finished getting 0 predicates  Time taken : 29857.7077 msec	04:22:26 PM
+total time taken :29861.708 mSecs	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+-----------------------	04:22:26 PM
+QUESTION LEFT: 	04:22:26 PM
+ finished getting 0 predicates  Time taken : 2793.1597 msec	04:22:58 PM
+total time taken :2819.1612 mSecs	04:22:58 PM
+total time taken :61.0035 msecs 	04:22:58 PM
+search for combination possibilities among predicates	04:22:58 PM
+loop over 1	04:22:58 PM
+ search for combinations using literals among 1 Querybuckets 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+-----------------------	04:22:58 PM
+QUESTION LEFT: 	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+New Bucket----------------------------	04:22:58 PM
+ finished getting 0 predicates  Time taken : 2457.1405 msec	04:23:48 PM
+total time taken :2460.1407 mSecs	04:23:48 PM
+total time taken :20.0011 msecs 	04:23:48 PM
+search for combination possibilities among predicates	04:23:48 PM
+loop over 1	04:23:48 PM
+ search for combinations using literals among 1 Querybuckets 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+-----------------------	04:23:48 PM
+QUESTION LEFT: 	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+New Bucket----------------------------	04:23:48 PM
+ finished getting 0 predicates  Time taken : 2691.154 msec	04:24:26 PM
+total time taken :2694.1541 mSecs	04:24:26 PM
+total time taken :21.0012 msecs 	04:24:26 PM
+search for combination possibilities among predicates	04:24:26 PM
+loop over 1	04:24:26 PM
+ search for combinations using literals among 1 Querybuckets 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+-----------------------	04:24:26 PM
+QUESTION LEFT: 	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+New Bucket----------------------------	04:24:26 PM
+ finished getting 14 predicates  Time taken : 8709.4981 msec	04:25:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:25:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:25:25 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:25:25 PM
+total time taken :9002.5149 mSecs	04:25:25 PM
+total time taken :533.0305 msecs 	04:25:26 PM
+search for combination possibilities among predicates	04:25:26 PM
+loop over 4	04:25:26 PM
+ search for combinations using literals among 4 Querybuckets 	04:25:26 PM
+-----------------------	04:25:26 PM
+QUESTION LEFT: 	04:25:26 PM
+New Bucket----------------------------	04:25:26 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	04:25:26 PM
+ finished getting 0 predicates  Time taken : 2666.1525 msec	04:41:33 PM
+total time taken :2669.1527 mSecs	04:41:33 PM
+total time taken :101.0057 msecs 	04:41:33 PM
+search for combination possibilities among predicates	04:41:33 PM
+loop over 1	04:41:33 PM
+ search for combinations using literals among 1 Querybuckets 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+-----------------------	04:41:33 PM
+QUESTION LEFT: 	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+New Bucket----------------------------	04:41:33 PM
+ finished getting 0 predicates  Time taken : 2523.1443 msec	04:43:23 PM
+total time taken :2526.1445 mSecs	04:43:23 PM
+total time taken :27.0016 msecs 	04:43:23 PM
+search for combination possibilities among predicates	04:43:23 PM
+loop over 1	04:43:23 PM
+ search for combinations using literals among 1 Querybuckets 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+-----------------------	04:43:23 PM
+QUESTION LEFT: 	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+New Bucket----------------------------	04:43:23 PM
+ finished getting 0 predicates  Time taken : 2583.1477 msec	04:44:33 PM
+total time taken :2587.148 mSecs	04:44:33 PM
+total time taken :55.0032 msecs 	04:44:33 PM
+search for combination possibilities among predicates	04:44:33 PM
+loop over 1	04:44:33 PM
+ search for combinations using literals among 1 Querybuckets 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+-----------------------	04:44:33 PM
+QUESTION LEFT: 	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+New Bucket----------------------------	04:44:33 PM
+ finished getting 0 predicates  Time taken : 3267.1869 msec	04:44:46 PM
+total time taken :3270.187 mSecs	04:44:46 PM
+total time taken :35.0021 msecs 	04:44:46 PM
+search for combination possibilities among predicates	04:44:46 PM
+loop over 1	04:44:46 PM
+ search for combinations using literals among 1 Querybuckets 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+-----------------------	04:44:46 PM
+QUESTION LEFT: 	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+New Bucket----------------------------	04:44:46 PM
+ finished getting 2 predicates  Time taken : 5993.3428 msec	04:45:33 PM
+total time taken :6011.3438 mSecs	04:45:33 PM
+total time taken :37.0021 msecs 	04:45:33 PM
+search for combination possibilities among predicates	04:45:33 PM
+loop over 1	04:45:33 PM
+ search for combinations using literals among 1 Querybuckets 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+-----------------------	04:45:33 PM
+QUESTION LEFT: 	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+New Bucket----------------------------	04:45:33 PM
+ finished getting 1 predicates  Time taken : 5786.3309 msec	04:47:26 PM
+total time taken :5797.3316 mSecs	04:47:26 PM
+total time taken :119.0068 msecs 	04:47:26 PM
+search for combination possibilities among predicates	04:47:26 PM
+loop over 1	04:47:26 PM
+ search for combinations using literals among 1 Querybuckets 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+-----------------------	04:47:26 PM
+QUESTION LEFT: 	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+New Bucket----------------------------	04:47:26 PM
+ finished getting 14 predicates  Time taken : 9292.5315 msec	04:56:16 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:56:16 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:56:16 PM
+Select distinct  where {{}}limit 20 A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:56:16 PM
+total time taken :9562.547 mSecs	04:56:16 PM
+total time taken :536.0306 msecs 	04:56:16 PM
+search for combination possibilities among predicates	04:56:16 PM
+loop over 4	04:56:16 PM
+ search for combinations using literals among 4 Querybuckets 	04:56:16 PM
+-----------------------	04:56:16 PM
+QUESTION LEFT: 	04:56:16 PM
+-----------------------	04:56:16 PM
+QUESTION LEFT: 	04:56:16 PM
+New Bucket----------------------------	04:56:16 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Saddam_Hussein>) }	04:56:16 PM
+New Bucket----------------------------	04:56:17 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Uday_Hussein>) }	04:56:17 PM
+ finished getting 0 predicates  Time taken : 2168.124 msec	04:57:29 PM
+total time taken :2171.1242 mSecs	04:57:29 PM
+total time taken :90.0052 msecs 	04:57:29 PM
+search for combination possibilities among predicates	04:57:29 PM
+loop over 1	04:57:29 PM
+ search for combinations using literals among 1 Querybuckets 	04:57:29 PM
+-----------------------	04:57:29 PM
+QUESTION LEFT: 	04:57:29 PM
+New Bucket----------------------------	04:57:29 PM
+select ?z where {?z <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Dance_Magazine's_"25_to_Watch">.?z <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing>} limit 1000A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	04:57:50 PM
+ finished getting 0 predicates  Time taken : 2851.163 msec	05:00:50 PM
+total time taken :2855.1633 mSecs	05:00:50 PM
+total time taken :95.0054 msecs 	05:00:50 PM
+search for combination possibilities among predicates	05:00:50 PM
+loop over 1	05:00:50 PM
+ search for combinations using literals among 1 Querybuckets 	05:00:50 PM
+-----------------------	05:00:50 PM
+QUESTION LEFT: 	05:00:50 PM
+New Bucket----------------------------	05:00:50 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"mario"and""'.}limit 100A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:14:43 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"luigi"and""'.}limit 100A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:14:44 PM
+ finished getting 0 predicates  Time taken : 2379.1361 msec	05:19:01 PM
+total time taken :2382.1362 mSecs	05:19:01 PM
+total time taken :110.0063 msecs 	05:19:01 PM
+search for combination possibilities among predicates	05:19:01 PM
+loop over 1	05:19:01 PM
+ search for combinations using literals among 1 Querybuckets 	05:19:01 PM
+-----------------------	05:19:01 PM
+QUESTION LEFT: 	05:19:01 PM
+-----------------------	05:19:01 PM
+QUESTION LEFT: 	05:19:01 PM
+-----------------------	05:19:01 PM
+QUESTION LEFT: 	05:19:01 PM
+-----------------------	05:19:01 PM
+QUESTION LEFT: 	05:19:01 PM
+New Bucket----------------------------	05:19:01 PM
+New Bucket----------------------------	05:19:01 PM
+New Bucket----------------------------	05:19:01 PM
+New Bucket----------------------------	05:19:01 PM
+select distinct  ?subject ?literal ?redirects where{?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal.optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}.optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}.Filter (!bound(?type) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) .?literal bif:contains '"angelina"and"jolie"and""'.}limit 100A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:23:59 PM
+Select * WHERE { <http://dbpedia.org/resource/Mario> ?pf1 ?of1 . ?of1 ?pf2 ?of2 . ?of2 ?pf3 ?middle . <http://dbpedia.org/resource/Luigi> ?ps1 ?os1 . ?os1 ?ps2 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf3 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/Mario> ) && (?middle != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of1)) && (?of1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of1 != <http://www.opengis.net/gml/_Feature> ) && (?of1 != <http://dbpedia.org/resource/Mario> ) && (?of1 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of2)) && (?of2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of2 != <http://www.opengis.net/gml/_Feature> ) && (?of2 != <http://dbpedia.org/resource/Mario> ) && (?of2 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/Mario> ) && (?os1 != <http://dbpedia.org/resource/Luigi> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:31:53 PM
+Select * WHERE { <http://dbpedia.org/resource/Mario> ?pf1 ?of1 . ?of1 ?pf2 ?of2 . ?of2 ?pf3 ?middle . <http://dbpedia.org/resource/Luigi> ?ps1 ?os1 . ?os1 ?ps2 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf2 != <http://dbpedia.org/ontology/abstract> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf3 != <http://purl.org/dc/terms/subject> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf3 != <http://purl.org/dc/terms/subject> ) && (?pf3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf3 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf3 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/Mario> ) && (?middle != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of1)) && (?of1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of1 != <http://www.opengis.net/gml/_Feature> ) && (?of1 != <http://dbpedia.org/resource/Mario> ) && (?of1 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of2)) && (?of2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of2 != <http://www.opengis.net/gml/_Feature> ) && (?of2 != <http://dbpedia.org/resource/Mario> ) && (?of2 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/Mario> ) && (?os1 != <http://dbpedia.org/resource/Luigi> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:37:01 PM
+Select * WHERE { <http://dbpedia.org/resource/Mario> ?pf1 ?of1 . ?of1 ?pf2 ?of2 . ?of2 ?pf3 ?middle . <http://dbpedia.org/resource/Luigi> ?ps1 ?os1 . ?os1 ?ps2 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf2 != <http://dbpedia.org/ontology/abstract> ) && (?pf2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf2 != <http://xmlns.com/foaf/0.1/page> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf3 != <http://purl.org/dc/terms/subject> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf3 != <http://purl.org/dc/terms/subject> ) && (?pf3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf3 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf3 != <http://dbpedia.org/ontology/abstract> ) && (?pf3 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf3 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/Mario> ) && (?middle != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of1)) && (?of1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of1 != <http://www.opengis.net/gml/_Feature> ) && (?of1 != <http://dbpedia.org/resource/Mario> ) && (?of1 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?of2)) && (?of2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of2 != <http://www.opengis.net/gml/_Feature> ) && (?of2 != <http://dbpedia.org/resource/Mario> ) && (?of2 != <http://dbpedia.org/resource/Luigi> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/Mario> ) && (?os1 != <http://dbpedia.org/resource/Luigi> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:40:55 PM
+Select * WHERE { <http://dbpedia.org/resource/David_Beckham> ?pf1 ?middle . <http://dbpedia.org/resource/Lionel_Messi> ?ps1 ?os1 . ?os1 ?ps2 ?os2 . ?os2 ?ps3 ?os3 . ?os3 ?ps4 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps3 != <http://dbpedia.org/ontology/abstract> ) && (?ps3 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps3 != <http://xmlns.com/foaf/0.1/page> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps4 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps4 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps4 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps4 != <http://dbpedia.org/ontology/abstract> ) && (?ps4 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps4 != <http://xmlns.com/foaf/0.1/page> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/David_Beckham> ) && (?middle != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/David_Beckham> ) && (?os1 != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os2)) && (?os2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os2 != <http://www.opengis.net/gml/_Feature> ) && (?os2 != <http://dbpedia.org/resource/David_Beckham> ) && (?os2 != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os3)) && (?os3 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os3 != <http://www.opengis.net/gml/_Feature> ) && (?os3 != <http://dbpedia.org/resource/David_Beckham> ) && (?os3 != <http://dbpedia.org/resource/Lionel_Messi> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:48:16 PM
+Select * WHERE { <http://dbpedia.org/resource/David_Beckham> ?pf1 ?middle . <http://dbpedia.org/resource/Lionel_Messi> ?ps1 ?os1 . ?os1 ?ps2 ?os2 . ?os2 ?ps3 ?os3 . ?os3 ?ps4 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps3 != <http://dbpedia.org/ontology/abstract> ) && (?ps3 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps3 != <http://xmlns.com/foaf/0.1/page> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps4 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps4 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps4 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps4 != <http://dbpedia.org/ontology/abstract> ) && (?ps4 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps4 != <http://xmlns.com/foaf/0.1/page> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/David_Beckham> ) && (?middle != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/David_Beckham> ) && (?os1 != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os2)) && (?os2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os2 != <http://www.opengis.net/gml/_Feature> ) && (?os2 != <http://dbpedia.org/resource/David_Beckham> ) && (?os2 != <http://dbpedia.org/resource/Lionel_Messi> ) && (!isLiteral(?os3)) && (?os3 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os3 != <http://www.opengis.net/gml/_Feature> ) && (?os3 != <http://dbpedia.org/resource/David_Beckham> ) && (?os3 != <http://dbpedia.org/resource/Lionel_Messi> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:49:57 PM
+Select * WHERE { <http://dbpedia.org/resource/Angelina_Jolie> ?pf1 ?of1 . ?of1 ?pf2 ?middle . <http://dbpedia.org/resource/Brad_Pitt> ?ps1 ?os1 . ?os1 ?ps2 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf2 != <http://dbpedia.org/ontology/abstract> ) && (?pf2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf2 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?middle != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?of1)) && (?of1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of1 != <http://www.opengis.net/gml/_Feature> ) && (?of1 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?of1 != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os1 != <http://dbpedia.org/resource/Brad_Pitt> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:53:15 PM
+Select * WHERE { <http://dbpedia.org/resource/Angelina_Jolie> ?pf1 ?middle . <http://dbpedia.org/resource/Brad_Pitt> ?ps1 ?os1 . ?os1 ?ps2 ?os2 . ?os2 ?ps3 ?os3 . ?os3 ?ps4 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?pf1 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps3 != <http://dbpedia.org/ontology/abstract> ) && (?ps3 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps3 != <http://xmlns.com/foaf/0.1/page> ) && (?ps3 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps4 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps4 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps4 != <http://purl.org/dc/terms/subject> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps4 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps4 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps4 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps4 != <http://dbpedia.org/ontology/abstract> ) && (?ps4 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps4 != <http://xmlns.com/foaf/0.1/page> ) && (?ps4 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps4 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/ontology/Person> ) && (?middle != <http://schema.org/Person> ) && (?middle != <http://dbpedia.org/class/yago/Person100007846> ) && (?middle != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?middle != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/ontology/Person> ) && (?os1 != <http://schema.org/Person> ) && (?os1 != <http://dbpedia.org/class/yago/Person100007846> ) && (?os1 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os1 != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os2)) && (?os2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os2 != <http://www.opengis.net/gml/_Feature> ) && (?os2 != <http://dbpedia.org/ontology/Person> ) && (?os2 != <http://schema.org/Person> ) && (?os2 != <http://dbpedia.org/class/yago/Person100007846> ) && (?os2 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os2 != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os3)) && (?os3 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os3 != <http://www.opengis.net/gml/_Feature> ) && (?os3 != <http://dbpedia.org/ontology/Person> ) && (?os3 != <http://schema.org/Person> ) && (?os3 != <http://dbpedia.org/class/yago/Person100007846> ) && (?os3 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os3 != <http://dbpedia.org/resource/Brad_Pitt> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:56:27 PM
+Select * WHERE { <http://dbpedia.org/resource/Angelina_Jolie> ?pf1 ?of1 . ?of1 ?pf2 ?middle . <http://dbpedia.org/resource/Brad_Pitt> ?ps1 ?os1 . ?os1 ?ps2 ?os2 . ?os2 ?ps3 ?middle .  FILTER ((?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf1 != <http://purl.org/dc/terms/subject> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf1 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf1 != <http://dbpedia.org/ontology/abstract> ) && (?pf1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf1 != <http://xmlns.com/foaf/0.1/page> ) && (?pf1 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?pf1 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?pf2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?pf2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?pf2 != <http://purl.org/dc/terms/subject> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?pf2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?pf2 != <http://dbpedia.org/ontology/thumbnail> ) && (?pf2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?pf2 != <http://dbpedia.org/ontology/abstract> ) && (?pf2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?pf2 != <http://xmlns.com/foaf/0.1/page> ) && (?pf2 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?pf2 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps1 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps1 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps1 != <http://purl.org/dc/terms/subject> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps1 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps1 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps1 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps1 != <http://dbpedia.org/ontology/abstract> ) && (?ps1 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps1 != <http://xmlns.com/foaf/0.1/page> ) && (?ps1 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps1 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps2 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps2 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps2 != <http://purl.org/dc/terms/subject> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps2 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps2 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps2 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps2 != <http://dbpedia.org/ontology/abstract> ) && (?ps2 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps2 != <http://xmlns.com/foaf/0.1/page> ) && (?ps2 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps2 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageRedirects> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageDisambiguates> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageExternalLink> ) && (?ps3 != <http://dbpedia.org/property/wikiPageUsesTemplate> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#comment> ) && (?ps3 != <http://www.w3.org/2002/07/owl#sameAs> ) && (?ps3 != <http://purl.org/dc/terms/subject> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#label> ) && (?ps3 != <http://dbpedia.org/ontology/wikiPageWikiLink> ) && (?ps3 != <http://dbpedia.org/ontology/thumbnail> ) && (?ps3 != <http://xmlns.com/foaf/0.1/depictions> ) && (?ps3 != <http://dbpedia.org/ontology/abstract> ) && (?ps3 != <http://xmlns.com/foaf/0.1/homepage> ) && (?ps3 != <http://xmlns.com/foaf/0.1/page> ) && (?ps3 != <http://www.w3.org/2002/07/owl#equivalentClass> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#subClassOf> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#domain> ) && (?ps3 != <http://www.w3.org/2000/01/rdf-schema#range> ) && (!isLiteral(?middle)) && (?middle != <http://www.w3.org/2002/07/owl#Thing> ) && (?middle != <http://www.opengis.net/gml/_Feature> ) && (?middle != <http://dbpedia.org/ontology/Person> ) && (?middle != <http://schema.org/Person> ) && (?middle != <http://dbpedia.org/class/yago/Person100007846> ) && (?middle != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?middle != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?of1)) && (?of1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?of1 != <http://www.opengis.net/gml/_Feature> ) && (?of1 != <http://dbpedia.org/ontology/Person> ) && (?of1 != <http://schema.org/Person> ) && (?of1 != <http://dbpedia.org/class/yago/Person100007846> ) && (?of1 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?of1 != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os1)) && (?os1 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os1 != <http://www.opengis.net/gml/_Feature> ) && (?os1 != <http://dbpedia.org/ontology/Person> ) && (?os1 != <http://schema.org/Person> ) && (?os1 != <http://dbpedia.org/class/yago/Person100007846> ) && (?os1 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os1 != <http://dbpedia.org/resource/Brad_Pitt> ) && (!isLiteral(?os2)) && (?os2 != <http://www.w3.org/2002/07/owl#Thing> ) && (?os2 != <http://www.opengis.net/gml/_Feature> ) && (?os2 != <http://dbpedia.org/ontology/Person> ) && (?os2 != <http://schema.org/Person> ) && (?os2 != <http://dbpedia.org/class/yago/Person100007846> ) && (?os2 != <http://dbpedia.org/resource/Angelina_Jolie> ) && (?os2 != <http://dbpedia.org/resource/Brad_Pitt> ) ). }LIMIT 10A HTTP Error occurred while trying to make the SPARQL Query, see inner exception for details==>System.Collections.ListDictionaryInternal	05:58:08 PM
+ finished getting 0 predicates  Time taken : 4072.2329 msec	06:00:01 PM
+total time taken :4098.2344 mSecs	06:00:01 PM
+total time taken :118.0068 msecs 	06:00:02 PM
+search for combination possibilities among predicates	06:00:02 PM
+loop over 1	06:00:02 PM
+ search for combinations using literals among 1 Querybuckets 	06:00:02 PM
+-----------------------	06:00:02 PM
+QUESTION LEFT: 	06:00:02 PM
+-----------------------	06:00:02 PM
+QUESTION LEFT: 	06:00:02 PM
+-----------------------	06:00:02 PM
+QUESTION LEFT: 	06:00:02 PM
+New Bucket----------------------------	06:00:02 PM
+New Bucket----------------------------	06:00:02 PM
+New Bucket----------------------------	06:00:02 PM

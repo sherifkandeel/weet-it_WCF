@@ -1,2 +1,5 @@
 ﻿http://www.w3.org/2002/07/owl#Thing
 http://www.opengis.net/gml/_Feature
+http://dbpedia.org/ontology/Person
+http://schema.org/Person
+http://dbpedia.org/class/yago/Person100007846

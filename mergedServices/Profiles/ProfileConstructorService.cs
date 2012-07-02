@@ -24,7 +24,7 @@ namespace mergedServices
 
         public Profile ConstructProfile(String subjectURI, choiceProfile profile, int resultLimit = 10)
         {
-            if (util.isInternalURI(subjectURI) && !Uri.IsWellFormedUriString(subjectURI, UriKind.Absolute))
+            if (util.isInternalURI(subjectURI))
                 subjectURI = util.encodeURI(subjectURI);
             if (profile == choiceProfile.micro)
             {
@@ -70,7 +70,7 @@ namespace mergedServices
                 for (int i = 0; i < relations.Count; i++)
                 {
                     String rel = relations[i];
-                    if (util.isInternalURI(rel) && !Uri.IsWellFormedUriString(rel, UriKind.Absolute))
+                    if (util.isInternalURI(rel))
                         rel = util.encodeURI(rel);
                     Entity en = new Entity();
                     en.URI = rel;

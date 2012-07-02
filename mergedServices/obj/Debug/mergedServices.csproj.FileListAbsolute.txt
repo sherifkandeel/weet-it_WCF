@@ -82,3 +82,17 @@ E:\Dev\proj\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
 E:\Dev\proj\weet-it_WCF\mergedServices\obj\Debug\mergedServices.csprojResolveAssemblyReference.cache
 E:\Dev\proj\weet-it_WCF\mergedServices\obj\Debug\mergedServices.dll
 E:\Dev\proj\weet-it_WCF\mergedServices\obj\Debug\mergedServices.pdb
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.dll.config
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\mergedServices.pdb
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\HtmlAgilityPack.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\MySql.Data.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.xml
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\obj\Debug\ResolveAssemblyReference.cache
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\obj\Debug\mergedServices.dll
+E:\Graduation Project\Git Hub\weet-it_WCF\mergedServices\obj\Debug\mergedServices.pdb

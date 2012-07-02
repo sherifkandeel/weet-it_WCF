@@ -18,7 +18,7 @@ namespace mergedServices
         public Profile ConstructLiteralProfile( string subjectURI, string predicate_label, string subject_label,string object_URI,string object_value,string pred_URI)
         {
           
-            LiteralProfile LP = new LiteralProfile(subject_label, predicate_label, object_value, pred_URI);
+            LiteralProfile LP = new LiteralProfile(subject_label, predicate_label, object_value, pred_URI,subjectURI);
             return LP;
         }
 

@@ -261,7 +261,7 @@ namespace mergedServices
         /// </summary>
         /// <param name="input">the uri to check</param>
         /// <returns>whether or not it's internal</returns>
-        private static bool isInternalURI(string input)
+        public static bool isInternalURI(string input)
         {
             for (int i = 0; i < allowedURIs.Count; i++)
             {
@@ -296,7 +296,7 @@ namespace mergedServices
         /// </summary>
         /// <param name="input">INPUT URI</param>
         /// <returns>THE ENCODED OUTPUT</returns>
-        static string encodeURI(string input)
+        public static string encodeURI(string input)
         {
             int indexAfterSlash = input.LastIndexOf("/") + 1;
             string afterSlash = input.Substring(indexAfterSlash);

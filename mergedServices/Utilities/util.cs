@@ -237,6 +237,22 @@ namespace mergedServices
 
 
         /// <summary>
+        /// SHERIF WAY OF ENCODING
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        static string encodeURI(string input)
+        {
+            int indexAfterSlash = input.LastIndexOf("/") + 1;
+            string afterSlash = input.Substring(indexAfterSlash);
+            string encodedAfterSlash = HttpUtility.UrlEncode(afterSlash);
+
+            string toreturn = input.Replace(afterSlash, encodedAfterSlash);
+            return toreturn;
+
+        }
+
+        /// <summary>
         /// This method tries it's best to get a label for the wanted URI
         /// </summary>
         /// <param name="URI">uri to get label to</param>
@@ -258,7 +274,9 @@ namespace mergedServices
 
                 else
                 {
-                    URI = Uri.EscapeUriString(URI);
+                    //URI = Uri.EscapeUriString(URI);
+                    if (isInternalURI(URI))
+                        URI = encodeURI(URI);
                     if (isInternalURI(URI) && Uri.IsWellFormedUriString(URI, UriKind.Absolute))
                     {
 
@@ -280,23 +298,26 @@ namespace mergedServices
                             if (results.Count < 1)
                             {
                                 //to decode the uri to remove the %xx characters
-                                URI = HttpUtility.UrlDecode(URI);
+                                string newURI = HttpUtility.UrlDecode(URI);
+
+                                while (newURI.Contains("%"))
+                                    newURI = HttpUtility.UrlDecode(newURI);
 
                                 //reversing the string and removing the last / and returning what's after it
-                                string toreturn = new string(URI.ToCharArray().Reverse().ToArray());//URI.Reverse().ToString();                    
+                                string toreturn = new string(newURI.ToCharArray().Reverse().ToArray());//URI.Reverse().ToString();                    
                                 toreturn = toreturn.Remove(toreturn.IndexOf("/"));
                                 toreturn = new string(toreturn.ToCharArray().Reverse().ToArray());
                                 toreturn = toreturn.Replace("_", " ");
                                 //TODO : get back the encoding
                                 toreturn = toreturn.Trim();
                                 //This part to return the one after the #
-                                if (toreturn.Contains("#"))
+                                if (toreturn.Contains("#") && toreturn.Length>toreturn.LastIndexOf("#"))
                                 {
                                     //adding to the hashset
-                                    addtohashset(URI, toreturn.Substring(toreturn.IndexOf("#")));
+                                    addtohashset(URI, toreturn.Substring(toreturn.IndexOf("#")+1));
 
                                     //return
-                                    return toreturn.Substring(toreturn.IndexOf("#"));
+                                    return toreturn.Substring(toreturn.IndexOf("#")+1);
                                 }
                                 if (toreturn.Length > 0)
                                 {
@@ -313,7 +334,7 @@ namespace mergedServices
                                     addtohashset(URI, URI);
 
                                     //returning
-                                    return URI;
+                                    return newURI;
                                 }
 
                             }

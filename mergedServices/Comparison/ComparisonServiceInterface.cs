@@ -14,7 +14,7 @@ namespace mergedServices
         [OperationContract]
         List<ResourceInformation> Compare(List<string> URIs);
 
-        [OperationContract]
+        [OperationContract]        
         KeyValuePair<string, string> getID(ResourceInformation ri);
 
         [OperationContract]

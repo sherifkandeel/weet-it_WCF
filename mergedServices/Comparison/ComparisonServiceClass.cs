@@ -31,8 +31,6 @@ namespace mergedServices
 
         }
 
-       
-
         /// <summary>
         /// gets the id of the resource
         /// </summary>

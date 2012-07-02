@@ -67,8 +67,11 @@ namespace mergedServices
                 full.URI = subjectURI;
                 List<String> relations = RelationGenerator.getRelatedEntities(subjectURI);
                 List<Entity> related = new List<Entity>();
-                foreach (String rel in relations)
+                for (int i = 0; i < relations.Count; i++)
                 {
+                    String rel = relations[i];
+                    if (util.isInternalURI(rel) && !Uri.IsWellFormedUriString(rel, UriKind.Absolute))
+                        rel = util.encodeURI(rel);
                     Entity en = new Entity();
                     en.URI = rel;
                     en.Label = util.getLabel(rel);

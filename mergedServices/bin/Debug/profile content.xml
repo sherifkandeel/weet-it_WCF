@@ -231,5 +231,8 @@
 	<predicate>http://xmlns.com/foaf/0.1/name</predicate>
 	<predicate>http://xmlns.com/foaf/0.1/surname</predicate>
 	<predicate>http://xmlns.com/foaf/0.1/givenName</predicate>
+	<predicate>http://dbpedia.org/ontology/wikiPageRedirects</predicate>
+	<predicate>http://dbpedia.org/ontology/wikiPageExternalLink</predicate>
+	<predicate>http://dbpedia.org/property/wikiPageUsesTemplate</predicate>
 </execludedPredicates>
 </profile>

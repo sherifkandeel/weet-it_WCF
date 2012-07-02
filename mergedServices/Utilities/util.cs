@@ -49,6 +49,29 @@ namespace mergedServices
         }
 
         /// <summary>
+        /// Encodes URIs
+        /// </summary>
+        /// <param name="value">the input url to be encoded</param>
+        /// <returns>encoded url</returns>
+        public static string UrlEncode(string value)
+        {
+            if (String.IsNullOrEmpty(value))
+                return String.Empty;
+
+            var sb = new StringBuilder();
+
+            foreach (char @char in value)
+            {
+                if (reservedCharacters.IndexOf(@char) == -1)
+                    sb.Append(@char);
+                else
+                    sb.AppendFormat("%{0:X2}", (int)@char);
+            }
+            return sb.ToString();
+        }
+
+
+        /// <summary>
         /// compute the levenstein Distance between two strings 
         /// </summary>
         /// <param name="s">string1 </param>

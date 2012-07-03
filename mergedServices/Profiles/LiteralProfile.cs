@@ -45,7 +45,14 @@ namespace mergedServices
             if (object_string.Contains("/XMLSchema"))
             {
                 object_temp_unit = util.getLabel(util.encodeURI(predicate_URI));
-                object_temp_unit = object_temp_unit.Substring(object_temp_unit.IndexOf('('));
+                try
+                {
+                    object_temp_unit = object_temp_unit.Substring(object_temp_unit.IndexOf('('));
+                }
+                catch
+                {
+                    return object_temp_unit;
+                }
                
                 return object_temp_unit;
             }

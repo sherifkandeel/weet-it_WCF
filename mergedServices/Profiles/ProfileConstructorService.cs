@@ -239,7 +239,7 @@ namespace mergedServices
             if (results.Count != 0)
             {
                 SparqlResult result = results[0];
-                return ((LiteralNode)result.Value("obj")).Value;
+                return result.Value("obj").ToString();
             }
             else return uri;
         }

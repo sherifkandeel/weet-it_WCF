@@ -149,7 +149,6 @@ namespace mergedServices
                 }                
             }
         }
-        
 
         /// <summary>
         /// Fills The comparisonComponent of each Resource To compare
@@ -157,8 +156,8 @@ namespace mergedServices
         /// <param name="input">Object to fill its rawComparisonObject</param>
         /// <returns>The same resource Again</returns>
         public ResourceInformation fillComparisonComponent(ResourceInformation input)
-        {           
-                        //we have to make sure the resource information is not empty 
+        {
+            //we have to make sure the resource information is not empty 
             if (input.resources_resourceIsSubj.Count > 1)
             {
                 //temp to fill in
@@ -171,14 +170,20 @@ namespace mergedServices
                 {
                     if (input.predicates_resourceIsSubj[i].Equals(tempPred))
                     {
-                        tempList.Add(input.resources_resourceIsSubj[i]);                        
+                        if (tempList.Count < 50)
+                        {
+                            KeyValuePair<string, string> temp = new KeyValuePair<string, string>(util.encodeURI(input.resources_resourceIsSubj[i].Key), input.resources_resourceIsSubj[i].Value);
+                            tempList.Add(temp);
+                        }
                     }
                     else
-                    {           
+                    {
                         input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList));
                         tempPred = input.predicates_resourceIsSubj[i];
                         tempList = new List<KeyValuePair<string, string>>();
-                        tempList.Add(input.resources_resourceIsSubj[i]);
+
+                        KeyValuePair<string, string> temp = new KeyValuePair<string, string>(util.encodeURI(input.resources_resourceIsSubj[i].Key), input.resources_resourceIsSubj[i].Value);
+                        tempList.Add(temp);
                     }
                 }
 
@@ -196,17 +201,23 @@ namespace mergedServices
                 tempList.Add(input.resources_resourceIsObj[0]);
                 for (int i = 1; i < input.predicates_resourceIsObj.Count; i++)
                 {
-                    
+
                     if (input.predicates_resourceIsObj[i].Equals(tempPred))
                     {
-                        tempList.Add(input.resources_resourceIsObj[i]);
+                        if (tempList.Count < 50)
+                        {
+                            KeyValuePair<string, string> temp = new KeyValuePair<string, string>(util.encodeURI(input.resources_resourceIsObj[i].Key), input.resources_resourceIsObj[i].Value);
+                            tempList.Add(temp);
+                        }
                     }
                     else
                     {
                         input.rawComparisonObject.Add(new KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>(tempPred, tempList.Distinct().ToList()));
                         tempPred = input.predicates_resourceIsObj[i];
                         tempList = new List<KeyValuePair<string, string>>();
-                        tempList.Add(input.resources_resourceIsObj[i]);
+
+                        KeyValuePair<string, string> temp = new KeyValuePair<string, string>(util.encodeURI(input.resources_resourceIsObj[i].Key), input.resources_resourceIsObj[i].Value);
+                        tempList.Add(temp);
                     }
                 }
 
@@ -217,7 +228,7 @@ namespace mergedServices
             //removing duplicates
             for (int i = 0; i < input.rawComparisonObject.Count; i++)
             {
-                for (int j = i+1; j < input.rawComparisonObject.Count; j++)
+                for (int j = i + 1; j < input.rawComparisonObject.Count; j++)
                 {
                     if (input.rawComparisonObject[i].Key.Value.Equals(input.rawComparisonObject[j].Key.Value))
                     {
@@ -231,7 +242,6 @@ namespace mergedServices
 
             return input;
         }
-
         
         
         /// <summary>

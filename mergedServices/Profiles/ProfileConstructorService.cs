@@ -26,14 +26,18 @@ namespace mergedServices
         {
             if (util.isInternalURI(subjectURI))
                 subjectURI = util.encodeURI(subjectURI);
+            subjectURI = useRedirection(subjectURI);
+            
             if (profile == choiceProfile.micro)
             {
                 MicroProfile micro = new MicroProfile();
                 String abst = getAbstract(subjectURI);
+                micro.IsShortAbstract = false;
                 if ( abst != null && abst.Length > 280)
                 {
                     String temp = abst.Substring(279);
                     micro.Abstract = abst.Substring(0, 280 + temp.IndexOf(" ")) + "...";
+                    micro.IsShortAbstract = true;
                 }
                 else
                     micro.Abstract = abst;
@@ -46,10 +50,12 @@ namespace mergedServices
             {
                 MiniProfile mini = new MiniProfile();
                 String abst = getAbstract(subjectURI);
+                mini.IsShortAbstract = false;
                 if (abst != null && abst.Length > 560)
                 {
                     String temp = abst.Substring(559);
                     mini.Abstract = abst.Substring(0, 560 + temp.IndexOf(" ")) + " ...";
+                    mini.IsShortAbstract = true;
                 }
                 else
                     mini.Abstract = abst;
@@ -72,6 +78,7 @@ namespace mergedServices
                     String rel = relations[i];
                     if (util.isInternalURI(rel))
                         rel = util.encodeURI(rel);
+                    rel = useRedirection(rel);
                     Entity en = new Entity();
                     en.URI = rel;
                     en.Label = util.getLabel(rel);
@@ -223,6 +230,18 @@ namespace mergedServices
                 location.Longitude = ((LiteralNode)resultLong.Value("obj")).Value;
             }
                 return location;
+        }
+
+        private String useRedirection(String uri)
+        {
+            String query = "select * where {<" + uri + "><http://dbpedia.org/ontology/wikiPageRedirects> ?obj}";
+            SparqlResultSet results = Request.RequestWithHTTP(query);
+            if (results.Count != 0)
+            {
+                SparqlResult result = results[0];
+                return ((LiteralNode)result.Value("obj")).Value;
+            }
+            else return uri;
         }
     }
 }

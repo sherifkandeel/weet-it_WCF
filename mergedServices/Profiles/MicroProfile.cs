@@ -42,5 +42,13 @@ namespace mergedServices
             get { return ABSTRACT; }
             set { ABSTRACT = value; }
         }
+
+        bool isShortAbstract;
+        [DataMember]
+        public bool IsShortAbstract
+        {
+            get { return isShortAbstract; }
+            set { isShortAbstract = value; }
+        }
     }
 }

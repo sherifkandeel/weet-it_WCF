@@ -56,13 +56,10 @@ namespace mergedServices
             score_resource = computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString().Replace("@en", ""));
             if (singleuri.Value("redirects") != null)
             {
-                if (singleuri.Value("redirects").ToString() == "http://dbpedia.org/resource/Astro")
-                {
-                    check_disambig = "gg";
-                }
+               
                 if (disambiguate_links.Contains(singleuri.Value("redirects").ToString()))
                     return 1000;
-                check_disambig = "ASK where {<" + singleuri.Value("redirects").ToString() + "> <http://dbpedia.org/ontology/wikiPageDisambiguates>    ?disamb                       }";
+                check_disambig = "ASK where {<" + util.encodeURI(singleuri.Value("redirects").ToString()) + "> <http://dbpedia.org/ontology/wikiPageDisambiguates>    ?disamb                       }";
                 result = Request.RequestWithHTTP(check_disambig);
                 if (result.Result == true)
                 {
@@ -70,8 +67,8 @@ namespace mergedServices
                     return 1000;
                 }
 
-                string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?redirect_label}";
-                result = Request.RequestWithHTTP(disamb_query);
+                string redirect_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?redirect_label}";
+                result = Request.RequestWithHTTP(redirect_query);
                 if (result.Count != 0)
                 {
                     score_redirect = computeLevenshteinDistance(keyword, result[0].Value("redirect_label").ToString().Replace("@en", ""));
@@ -104,7 +101,7 @@ namespace mergedServices
                "optional { ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}." + 
                "optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}." +
                "optional { ?subject   <http://dbpedia.org/ontology/wikiPageDisambiguates>  ?disamb}"+
-"Filter ( ( !bound(?type) && !bound(?disamb)) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) ." +
+               "Filter ( ( !bound(?type) && !bound(?disamb)) ||  ( !(?type=<http://www.w3.org/2004/02/skos/core#Concept>)&& !(?type= <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>))) ." +
  
                 "?literal bif:contains '" + bifcontains + "'.}" + "limit" + " 100";
 

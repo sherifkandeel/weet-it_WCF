@@ -28,7 +28,7 @@ namespace mergedServices
         /// <returns></returns>
         public static List<string> retrieve_img(string dbpediaUri, E imgsize = E.small)
         {
-
+            dbpediaUri = util.encodeURI(dbpediaUri);
             string image_query = "select distinct * where{<" + dbpediaUri + "><http://xmlns.com/foaf/0.1/depiction> ?z}";
             SparqlResultSet dbimglink = Request.RequestWithHTTP(image_query);
             List<string> image_urls = new List<string>();
@@ -79,6 +79,7 @@ namespace mergedServices
         /// <returns></returns>
         public static string get_fb_link(string dbpedialink, E imgsize)
         {
+            dbpedialink = util.encodeURI(dbpedialink);
             string SameAs_query = "select distinct ?freebaselink where {<" + dbpedialink + "> <" + sameAs_URI_property + "> ?freebaselink }";
 
             string freebaselink = "";
@@ -118,25 +119,19 @@ namespace mergedServices
 
                 }
             }
-
-            //foreach (string it in similaruris)
-            //{
-            //    if (it.Contains("rdf.freebase") && it.Contains("m."))
-            //    {
-
-            //        freebaselink = it;
-
-            //        freebaselink = freebaselink.Replace("<", "");
-            //        freebaselink = freebaselink.Replace(">", "");
-            //        entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m.") + 3);
+            else
+            {
+                
+                    string image_query = "select distinct * where{<" + dbpedialink + "><http://xmlns.com/foaf/0.1/depiction> ?z}";
+             
+                    SparqlResultSet dbpedia_imageurl = Request.RequestWithHTTP(image_query);
+                if(dbpedia_imageurl.Count!=0)
+                    return dbpedia_imageurl[0].Value("z").ToString();
+            }
 
 
-            //    }
 
-            //}
-
-
-            return null;
+            return "#";
         }
 
     }

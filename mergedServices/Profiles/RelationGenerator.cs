@@ -70,6 +70,8 @@ namespace mergedServices
             }
             orderedEntities = orderedEntities.OrderByDescending(k => k.Key).ToList();
             //removing the original URI (sometimes it appears again, that's why we remove it)
+
+            orderedEntities.RemoveAll(e => e.Value.Equals(System.Web.HttpUtility.UrlDecode((uri))));
             orderedEntities.RemoveAll(e => e.Value.Equals(uri));
 
 

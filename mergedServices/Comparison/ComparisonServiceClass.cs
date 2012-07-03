@@ -21,13 +21,23 @@ namespace mergedServices
             Comparison c;
             c = new Comparison(URIs);
             List<ResourceInformation> ri = c.getComparisonOutput();
-            return ri;
+            
 
             //ResourceInformation r = new ResourceInformation();
             //r.ID = new KeyValuePair<string, string>("ali", "alis");
             //List<ResourceInformation> rs = new List<ResourceInformation>();
             //rs.Add(r);
             //return rs;
+
+            for (int i = 0; i < ri.Count; i++)
+            {
+                ri[i].rawComparisonObject = new List<KeyValuePair<KeyValuePair<string, string>, List<KeyValuePair<string, string>>>>();
+                ri[i].resources_resourceIsObj = new List<KeyValuePair<string, string>>();
+                ri[i].resources_resourceIsSubj = new List<KeyValuePair<string, string>>();
+                ri[i].predicates_resourceIsObj = new List<KeyValuePair<string, string>>();
+                ri[i].predicates_resourceIsSubj = new List<KeyValuePair<string, string>>();
+            }
+            return ri;
 
         }
 

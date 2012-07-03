@@ -303,8 +303,13 @@ namespace mergedServices
                 int indexAfterSlash = input.LastIndexOf("/") + 1;
                 string afterSlash = input.Substring(indexAfterSlash);
                 string encodedAfterSlash = UpperCaseUrlEncode(afterSlash);
-
                 string toreturn = input.Replace(afterSlash, encodedAfterSlash);
+                
+                //fixback the URI
+                toreturn = toreturn.Replace("%2C", ",");
+                toreturn = toreturn.Replace("(", "%28");
+                toreturn = toreturn.Replace(")", "%29");
+
                 return toreturn;
             }
             else

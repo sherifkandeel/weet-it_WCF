@@ -12,6 +12,7 @@ namespace mergedServices
     /// </summary>
     public static class imageGrapper
     {
+        static string freebase_api_key="&key=AIzaSyCNg92r5xbwPoUThpkGAFoyZU4MSckqdgg";
         //we should consider replacing the api call with querying from the local server
         // static string sameasServicelink = "http://sameas.org/text";
         static string fb_imageApi = "https://usercontent.googleapis.com/freebase/v1/image/m/";
@@ -111,11 +112,11 @@ namespace mergedServices
                 switch (imgsize)
                 {
                     case E.small:
-                        return (fb_imageApi + entity_freebase_id + smallimg);
+                        return (fb_imageApi + entity_freebase_id + smallimg+freebase_api_key);
                     case E.large:
-                        return (fb_imageApi + entity_freebase_id + largeimg);
+                        return (fb_imageApi + entity_freebase_id + largeimg + freebase_api_key);
                     case E.medium:
-                        return (fb_imageApi + entity_freebase_id + medimg);
+                        return (fb_imageApi + entity_freebase_id + medimg + freebase_api_key);
 
                 }
             }

@@ -298,13 +298,17 @@ namespace mergedServices
         /// <returns>THE ENCODED OUTPUT</returns>
         public static string encodeURI(string input)
         {
+            if (isInternalURI(input))
+            {
+                int indexAfterSlash = input.LastIndexOf("/") + 1;
+                string afterSlash = input.Substring(indexAfterSlash);
+                string encodedAfterSlash = UpperCaseUrlEncode(afterSlash);
 
-            int indexAfterSlash = input.LastIndexOf("/") + 1;
-            string afterSlash = input.Substring(indexAfterSlash);
-            string encodedAfterSlash = UpperCaseUrlEncode(afterSlash);
-
-            string toreturn = input.Replace(afterSlash, encodedAfterSlash);
-            return toreturn;
+                string toreturn = input.Replace(afterSlash, encodedAfterSlash);
+                return toreturn;
+            }
+            else
+                return input;
 
 
         }

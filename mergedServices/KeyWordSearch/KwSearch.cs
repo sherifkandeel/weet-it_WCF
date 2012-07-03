@@ -17,7 +17,8 @@ namespace mergedServices
         static char[] space_delimeter = new char[] { ' ' };
         //static SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
 
-
+        
+        
         /// <summary>
         /// generates the sparql bifcontains syntax for multiple word keywords 
         /// </summary>
@@ -338,7 +339,7 @@ namespace mergedServices
             return uris;
 
         }
-        public static int computeLevenshteinDistance(string s, string t)
+        private static int computeLevenshteinDistance(string s, string t)
         {
             int n = s.Length;
             int m = t.Length;

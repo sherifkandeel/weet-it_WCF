@@ -309,6 +309,7 @@ namespace mergedServices
                 toreturn = toreturn.Replace("%2C", ",");
                 toreturn = toreturn.Replace("(", "%28");
                 toreturn = toreturn.Replace(")", "%29");
+                toreturn = toreturn.Replace("%3A", ":");
 
                 return toreturn;
             }

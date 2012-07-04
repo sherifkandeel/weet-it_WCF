@@ -553,5 +553,22 @@ namespace mergedServices
                     }
             }
         }
+
+        /// <summary>
+        /// Reads line of text files and return it in a list of strings.
+        /// </summary>
+        /// <param name="filePath">The path of the file to be read.</param>
+        /// <returns>List of the lines in the file.</returns>
+        public static List<string> ReadFile(string filePath)
+        {
+            List<string> toreturn = new List<string>();
+            StreamReader sr = new StreamReader(filePath);
+            while (!sr.EndOfStream)
+            {
+                toreturn.Add(sr.ReadLine());
+            }
+            sr.Close();
+            return toreturn;
+        }
     }
 }

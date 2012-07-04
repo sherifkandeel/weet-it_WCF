@@ -472,8 +472,6 @@ namespace mergedServices
 
             List<string> questionTypeList = new List<string>();  //List to hold the contents of the question type file
 
-            question = question.ToLower();
-
             questionAndType.Add(question);  //add the original question to return it if no modifications happen
             questionAndType.Add("normal");    //add question type equals 0 (normal) as default
 

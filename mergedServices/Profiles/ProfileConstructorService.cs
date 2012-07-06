@@ -21,7 +21,13 @@ namespace mergedServices
             LiteralProfile LP = new LiteralProfile(subject_label, predicate_label, object_value, pred_URI,subjectURI);
             return LP;
         }
-
+        /// <summary>
+        /// The function gets all info about profile according to its type and the content of XML file it uses
+        /// </summary>
+        /// <param name="subjectURI">The URI of the subject resource as String</param>
+        /// <param name="profile">Type of profile(full, mini, micro)</param>
+        /// <param name="resultLimit">Max number of results got from queries</param>
+        /// <returns>Object of one of the classes (FullProfile, MiniProfile, MicroProfile)</returns>
         public Profile ConstructProfile(String subjectURI, choiceProfile profile, int resultLimit = 10)
         {
             if (util.isInternalURI(subjectURI))
@@ -61,7 +67,7 @@ namespace mergedServices
                     mini.Abstract = abst;
                 mini.Label = util.getLabel(subjectURI);
                 mini.URI = subjectURI;
-                mini.Details = setProfileContents("mini", subjectURI, resultLimit);
+                mini.Details = setProfileDetails("mini", subjectURI, resultLimit);
                 mini.Picture = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.small);
                 return mini;
             }
@@ -86,7 +92,7 @@ namespace mergedServices
                     related.Add(en);
                 }
                 full.Related = related;
-                full.Details = setProfileContents("full", subjectURI, resultLimit);
+                full.Details = setProfileDetails("full", subjectURI, resultLimit);
                 full.Picture = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.large);
                 full.Location = getLocation(subjectURI);
 
@@ -95,7 +101,14 @@ namespace mergedServices
             return null;
         }
 
-        private List<KeyValuePair<String, List<Entity>>> setProfileContents(String profileType, String subjectURI, int resultLimit)
+        /// <summary>
+        /// The function gets the details part about profile according to its type and the content of XML file it uses
+        /// </summary>
+        /// <param name="profileType">Type of profile(full, mini, micro)</param>
+        /// <param name="subjectURI">The URI of the subject resource as String</param>
+        /// <param name="resultLimit">Max number of results got from queries</param>
+        /// <returns>The details part of mini and full profiles</returns>
+        private List<KeyValuePair<String, List<Entity>>> setProfileDetails(String profileType, String subjectURI, int resultLimit)
         {
             XDocument XMLDoc = XDocument.Load("profile content.xml");            
             String query = "select * where {<" + subjectURI + "> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?obj}";
@@ -169,8 +182,15 @@ namespace mergedServices
             return profileContent;
         }
 
-       
-
+        /// <summary>
+        /// This function returns entities of subjects or objects depending on the first parameter
+        /// if the result of the query is literal, its entity will have label only not URI
+        /// </summary>
+        /// <param name="type">If the query is responsible for getting objects or subjects</param>
+        /// <param name="SubjectURI">The URI of the subject resource as String</param>
+        /// <param name="predicateURI">The URI of the predicate as String</param>
+        /// <param name="resultLimit">Max number of results got from queries</param>
+        /// <returns>The entities got from the queries done in the function</returns>
         private List<Entity> getQueryResults(String type, String SubjectURI, String predicateURI, int resultLimit)
         {
             String query = "";
@@ -203,6 +223,11 @@ namespace mergedServices
 
         }
 
+        /// <summary>
+        /// This function gets the abstract data of the resource with the URI sent using query
+        /// </summary>
+        /// <param name="SubjectURI">The URI of the subject resource as String</param>
+        /// <returns>Abstract data about the entity of the URI</returns>
         private String getAbstract(String SubjectURI)
         {            
             String query = "select * where {<" + SubjectURI + "><http://dbpedia.org/ontology/abstract> ?obj}";
@@ -215,6 +240,11 @@ namespace mergedServices
             else return null;
         }
 
+        /// <summary>
+        /// This function gets latitude and longitude of the resource if found with the URI sent using query
+        /// </summary>
+        /// <param name="SubjectURI">The URI of the subject resource as String</param>
+        /// <returns>Location object(latitude and longitude)</returns>
         private Location getLocation(String SubjectURI)
         {
             Location location = new Location();
@@ -232,6 +262,11 @@ namespace mergedServices
                 return location;
         }
 
+        /// <summary>
+        /// This function returns the redirection page to the pages which have ones
+        /// </summary>
+        /// <param name="uri">This function gets the abstract data of the resource with the URI sent using query</param>
+        /// <returns>the redirection page if found else it returns the same URI</returns>
         private String useRedirection(String uri)
         {
             String query = "select * where {<" + uri + "><http://dbpedia.org/ontology/wikiPageRedirects> ?obj}";

@@ -83,7 +83,7 @@ namespace mergedServices
             for (int i = 0; i < max; i++)
             {
                 toReturn.Add(orderedEntities[i].Value);
-            }+
+            }
             return toReturn;
         }
 

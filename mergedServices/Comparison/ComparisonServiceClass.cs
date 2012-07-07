@@ -18,8 +18,13 @@ namespace mergedServices
         /// <returns>the resource information objects resulting form the comparison</returns>
         public List<ResourceInformation> Compare(List<string> URIs)
         {
+            List<string> encdoingURIs = new List<string>();
+            foreach (string item in URIs)
+            {
+                encdoingURIs.Add(util.encodeURI(item));
+            }
             Comparison c;
-            c = new Comparison(URIs);
+            c = new Comparison(encdoingURIs);
             List<ResourceInformation> ri = c.getComparisonOutput();
             
 

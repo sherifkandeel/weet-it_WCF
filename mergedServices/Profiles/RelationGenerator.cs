@@ -9,12 +9,12 @@ namespace mergedServices
 {
     class RelationGenerator
     {
-        
         /// <summary>
         /// getting entities from the same categories as the original entities and sorting them by the number of occurences
         /// </summary>
-        /// <param name="uri"></param>
-        /// <returns></returns>
+        /// <param name="uri">the uri to get the related entities for</param>
+        /// <param name="MaxNumberOfEntities">Maximum number of related entities to return</param>
+        /// <returns>list of the related entities</returns>
         public static List<String> getRelatedEntities(String uri, int MaxNumberOfEntities=7)
         {
             //SparqlRemoteEndpoint endpoint = new SparqlRemoteEndpoint(new Uri("http://weetit:8890/sparql"));
@@ -83,7 +83,7 @@ namespace mergedServices
             for (int i = 0; i < max; i++)
             {
                 toReturn.Add(orderedEntities[i].Value);
-            }
+            }+
             return toReturn;
         }
 

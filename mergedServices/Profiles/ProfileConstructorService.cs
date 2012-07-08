@@ -33,7 +33,8 @@ namespace mergedServices
             if (util.isInternalURI(subjectURI))
                 subjectURI = util.encodeURI(subjectURI);
             subjectURI = useRedirection(subjectURI);
-            
+            if (util.isInternalURI(subjectURI))
+                subjectURI = util.encodeURI(subjectURI);
             if (profile == choiceProfile.micro)
             {
                 MicroProfile micro = new MicroProfile();

@@ -298,7 +298,7 @@ namespace mergedServices
         /// <returns>THE ENCODED OUTPUT</returns>
         public static string encodeURI(string input)
         {
-            if (isInternalURI(input))
+            if (isInternalURI(input) && !input.Contains("%"))
             {
                 int indexAfterSlash = input.LastIndexOf("/") + 1;
                 string afterSlash = input.Substring(indexAfterSlash);

@@ -1,4 +1,17 @@
 http://dbpedia.org/ontology/wikiPageWikiLink
 http://dbpedia.org/ontology/wikiPageRedirects
 http://dbpedia.org/ontology/wikiPageDisambiguates
+http://dbpedia.org/ontology/related/geo
 http://purl.org/dc/terms/subject
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://dbpedia.org/ontology/abstract
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/property/wikiPageUsesTemplate
+http://dbpedia.org/property/dateOfBirth
+http://xmlns.com/foaf/0.1/primaryTopic
+http://dbpedia.org/property/gini
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://www.georss.org/georss/point

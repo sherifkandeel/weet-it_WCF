@@ -2,3 +2,4 @@ http://purl.org
 http://dbpedia.org
 http://xmlns.com
 http://www.w3.org
+http://www.georss.org/georss/point

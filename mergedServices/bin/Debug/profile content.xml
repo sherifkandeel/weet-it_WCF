@@ -34,8 +34,6 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
 		</City>
 		<Company URI="http://dbpedia.org/ontology/Company">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/industry</predicate>
@@ -49,8 +47,7 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/currency</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/officialLanguage</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+			
 		</Country>
 		<Film URI="http://dbpedia.org/ontology/Film">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/director</predicate>
@@ -63,8 +60,7 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+			
 		</Settlement>
 		<Song URI="http://dbpedia.org/ontology/Song">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/composer</predicate>
@@ -134,9 +130,7 @@
 		<City URI="http://dbpedia.org/ontology/City">
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
-				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
-				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
-				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>				
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/leaderName</predicate>
 		</City>
@@ -162,9 +156,7 @@
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/capital</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/currency</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/language</predicate>
-			<predicate queryType="getObjects">http://dbpedia.org/ontology/officialLanguage</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
-			<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
+			<predicate queryType="getObjects">http://dbpedia.org/ontology/officialLanguage</predicate>			
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/largestCity</predicate>
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/anthem</predicate>
@@ -186,9 +178,7 @@
 		<Settlement URI="http://dbpedia.org/ontology/Settlement">
 			<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/areaMetro</predicate>
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
-				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>
-				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#long</predicate>
-				<predicate queryType="getObjects">http://www.w3.org/2003/01/geo/wgs84_pos#lat</predicate>
+				<predicate queryType="getObjects">http://dbpedia.org/ontology/country</predicate>				
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/PopulatedPlace/populationDensity</predicate>
 				<predicate queryType="getObjects">http://dbpedia.org/ontology/leaderName</predicate>
 		</Settlement>
@@ -234,5 +224,6 @@
 	<predicate>http://dbpedia.org/ontology/wikiPageRedirects</predicate>
 	<predicate>http://dbpedia.org/ontology/wikiPageExternalLink</predicate>
 	<predicate>http://dbpedia.org/property/wikiPageUsesTemplate</predicate>
+	<predicate>http://www.georss.org/georss/point</predicate>
 </execludedPredicates>
 </profile>

@@ -1,1 +1,1 @@
-http://weetit:8890/sparql
+http://sherif-pc:8890/sparql

@@ -287,7 +287,8 @@ namespace mergedServices
                                     " && !(?typeOfOwner = <http://www.opengis.net/gml/_Feature>) " +
                                     " && !(?typeOfOwner = <http://www.w3.org/2002/07/owl#ObjectProperty>) " +
                                     " && !(?typeOfOwner = <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ) " +
-                                    " && !(?typeOfOwner = <http://www.w3.org/2002/07/owl#DatatypeProperty> )))." +
+                                    " && !(?typeOfOwner = <http://www.w3.org/2002/07/owl#DatatypeProperty> )" +
+                                    " && !(?typeOfOwner = <http://www.w3.org/2002/07/owl#Class> )))." +                      
                                     "?literal bif:contains '\"" + questionleft + "\"'.} limit " + Limit;
 
 

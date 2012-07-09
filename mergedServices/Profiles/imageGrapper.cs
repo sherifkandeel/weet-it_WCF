@@ -12,6 +12,8 @@ namespace mergedServices
     /// </summary>
     public static class imageGrapper
     {
+        static string no_imageLink = "https://usercontent.googleapis.com/freebase/v1/image/m/04y";
+        
         static string freebase_api_key="&key=AIzaSyCNg92r5xbwPoUThpkGAFoyZU4MSckqdgg";
         //we should consider replacing the api call with querying from the local server
         // static string sameasServicelink = "http://sameas.org/text";
@@ -107,18 +109,31 @@ namespace mergedServices
                 freebaselink = freebase_sameAs[0].Value("freebaselink").ToString();
                 freebaselink = freebaselink.Replace("<", "");
                 freebaselink = freebaselink.Replace(">", "");
-                entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m/") + 3);
-
-                switch (imgsize)
+                try
                 {
-                    case E.small:
-                        return (fb_imageApi + entity_freebase_id + smallimg+freebase_api_key);
-                    case E.large:
-                        return (fb_imageApi + entity_freebase_id + largeimg + freebase_api_key);
-                    case E.medium:
-                        return (fb_imageApi + entity_freebase_id + medimg + freebase_api_key);
+                    entity_freebase_id = freebaselink.Substring(freebaselink.IndexOf("/m/") + 3);
+                    switch (imgsize)
+                    {
+                        case E.small:
+                            return (fb_imageApi + entity_freebase_id + smallimg + freebase_api_key);
+                        case E.large:
+                            return (fb_imageApi + entity_freebase_id + largeimg + freebase_api_key);
+                        case E.medium:
+                            return (fb_imageApi + entity_freebase_id + medimg + freebase_api_key);
 
+                    }
                 }
+                catch
+                {
+                    string image_query = "select distinct * where{<" + dbpedialink + "><http://xmlns.com/foaf/0.1/depiction> ?z}";
+
+                    SparqlResultSet dbpedia_imageurl = Request.RequestWithHTTP(image_query);
+                    if (dbpedia_imageurl.Count != 0)
+                        return dbpedia_imageurl[0].Value("z").ToString();
+                    
+                }
+
+               
             }
             else
             {
@@ -132,7 +147,17 @@ namespace mergedServices
 
 
 
-            return "#";
+            switch (imgsize)
+            {
+                case E.small:
+                    return ( no_imageLink + smallimg + freebase_api_key);
+                case E.large:
+                    return (no_imageLink + largeimg + freebase_api_key);
+                case E.medium:
+                    return (no_imageLink + medimg + freebase_api_key);
+
+            }
+            return no_imageLink + medimg + freebase_api_key;
         }
 
     }

@@ -174,7 +174,7 @@ namespace mergedServices
                                 scores.Insert(iterator, levdistance);
                                 uris.Insert(iterator, uri.Value("redirects").ToString());
                             }
-                            else if ((uris.Contains(uri.Value("subject").ToString()) || uris.Contains(uri.Value("redirects").ToString())) && uri.Value("redirects") != null && levdistance <= scores[uris.IndexOf(uri.Value("redirects").ToString())])
+                            else if (uri.Value("redirects") != null && levdistance <= scores[uris.IndexOf(uri.Value("redirects").ToString())] && (uris.Contains(uri.Value("subject").ToString()) || uris.Contains(uri.Value("redirects").ToString())))
                             {
                                 int redundant = 0;
                                 try
@@ -248,8 +248,16 @@ namespace mergedServices
 
         public static string geturi(string keyword)
         {
+            try
+            {
+
+                return Find_URIs(keyword, 1)[0];
+            }
+            catch
+            {
+                return null;
+            }
             
-            return Find_URIs(keyword, 1)[0];
         }
         /// <summary>
         /// gets the top n uris that best matches the given keyword ,you can specify MaxURis with 1 to get the best matching one

@@ -25,8 +25,10 @@ namespace mergedServices
        
         public LiteralProfile(string sl, string predlabel, string object_string, string predURI,string subjURI)
         {
+            initialize();
+
             subjectURI = subjURI;
-            subjectLabel = sl;
+            subjectLabel = sl.Replace("@en","");
             PredicateLabel = predlabel;
             imageURI = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.large);
 
@@ -37,6 +39,15 @@ namespace mergedServices
             }
             else
                 objectValue = object_string;
+            objectValue = objectValue.Replace("@en", "");
+        }
+        private void initialize()
+        {
+            PredicateLabel=" ";
+            objectValue=" ";
+            objectUnit = " ";
+                imageURI=" ";
+                subjectLabel=" ";
         }
         private string check_object_unit(string object_string, string predicate_URI)
         {

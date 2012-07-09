@@ -25,21 +25,33 @@ namespace mergedServices
        
         public LiteralProfile(string sl, string predlabel, string object_string, string predURI,string subjURI)
         {
-            initialize();
-
-            subjectURI = subjURI;
-            subjectLabel = sl.Replace("@en","");
-            PredicateLabel = predlabel;
-            imageURI = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.large);
-
-            if (object_string!=null && object_string.Contains("http://"))
+            try
             {
-                objectValue = object_string.Substring(0, object_string.IndexOf("^^"));
-                objectUnit = check_object_unit(object_string, predURI);
+                initialize();
+
+                subjectURI = subjURI;
+
+                PredicateLabel = predlabel;
+                imageURI = imageGrapper.get_fb_link(subjectURI, imageGrapper.E.large);
+
+                if (object_string != null && object_string.Contains("http://"))
+                {
+                    objectValue = object_string.Substring(0, object_string.IndexOf("^^"));
+                    objectUnit = check_object_unit(object_string, predURI);
+                }
+                else
+                    objectValue = object_string;
+                objectValue = objectValue.Replace("@en", "");
             }
-            else
-                objectValue = object_string;
-            objectValue = objectValue.Replace("@en", "");
+            catch
+            {
+                imageURI="https://usercontent.googleapis.com/freebase/v1/image/m/04y";
+                subjectLabel = "we are so Sorry ,This Answer can't be parsed.";
+                objectValue="           ";
+                objectUnit = "      ";
+                PredicateLabel = "        ";
+
+            }
         }
         private void initialize()
         {
@@ -48,6 +60,7 @@ namespace mergedServices
             objectUnit = " ";
                 imageURI=" ";
                 subjectLabel=" ";
+                subjectURI = "";
         }
         private string check_object_unit(string object_string, string predicate_URI)
         {
